@@ -1,11 +1,11 @@
 using System;
 using BookMyShow_Clone.Models;
-using BookMyShow_Clone.Repository.Configurations;
+using BookMyShow_Clone.Data.Configurations;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace BookMyShow_Clone.Repository;
+namespace BookMyShow_Clone.Data;
 
 public class ApplicationDbContext : IdentityDbContext<User>
 {
@@ -39,7 +39,6 @@ public class ApplicationDbContext : IdentityDbContext<User>
 
         modelBuilder.Entity<IdentityRole>().HasData(seedData.IdentityRoles);
         modelBuilder.Entity<User>().HasData(seedData.Users);
-        modelBuilder.Entity<IdentityUserRole<string>>().HasData(seedData.IdentityRoles);
     }
 
     public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)

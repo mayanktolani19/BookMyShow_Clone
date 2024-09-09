@@ -2,7 +2,7 @@ using System;
 using BookMyShow_Clone.Models;
 using Microsoft.AspNetCore.Identity;
 
-namespace BookMyShow_Clone.Repository.Configurations;
+namespace BookMyShow_Clone.Data.Configurations;
 
 public class SeedData
 {
