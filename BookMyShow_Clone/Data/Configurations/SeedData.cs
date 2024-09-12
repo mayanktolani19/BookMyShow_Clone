@@ -343,13 +343,6 @@ public class SeedData
             },
             new Seat
             {
-                Id = 1,
-                ScreenId = 1,
-                SeatNumber = 1,
-                RowNumber = 1
-            },
-            new Seat
-            {
                 Id = 2,
                 ScreenId = 1,
                 SeatNumber = 2,
@@ -900,79 +893,79 @@ public class SeedData
             new Booking
             {
                 Id = 13,
-                ShowId = 10,
+                ShowId = 4,
                 UserId = "9e224968-33e4-4652-b7b7-8574d048cdb9"
             },
             new Booking
             {
                 Id = 14,
-                ShowId = 11,
+                ShowId = 9,
                 UserId = "662ea775-6b80-49b3-9414-d03bcc043ec8"
             },
             new Booking
             {
                 Id = 15,
-                ShowId = 12,
+                ShowId = 5,
                 UserId = "be15effc-7aaf-443c-8c02-f31d4eee3e96"
             },
             new Booking
             {
                 Id = 16,
-                ShowId = 13,
+                ShowId = 4,
                 UserId = "9e224968-33e4-4652-b7b7-8574d048cdb9"
             },
             new Booking
             {
                 Id = 17,
-                ShowId = 14,
+                ShowId = 3,
                 UserId = "662ea775-6b80-49b3-9414-d03bcc043ec8"
             },
             new Booking
             {
                 Id = 18,
-                ShowId = 15,
+                ShowId = 5,
                 UserId = "be15effc-7aaf-443c-8c02-f31d4eee3e96"
             },
             new Booking
             {
                 Id = 19,
-                ShowId = 16,
+                ShowId = 6,
                 UserId = "9e224968-33e4-4652-b7b7-8574d048cdb9"
             },
             new Booking
             {
                 Id = 20,
-                ShowId = 17,
+                ShowId = 7,
                 UserId = "662ea775-6b80-49b3-9414-d03bcc043ec8"
             },
             new Booking
             {
                 Id = 21,
-                ShowId = 18,
+                ShowId = 8,
                 UserId = "be15effc-7aaf-443c-8c02-f31d4eee3e96"
             },
             new Booking
             {
                 Id = 22,
-                ShowId = 19,
+                ShowId = 9,
                 UserId = "9e224968-33e4-4652-b7b7-8574d048cdb9"
             },
             new Booking
             {
                 Id = 23,
-                ShowId = 20,
+                ShowId = 2,
                 UserId = "662ea775-6b80-49b3-9414-d03bcc043ec8"
             },
             new Booking
             {
                 Id = 24,
-                ShowId = 21,
+                ShowId = 1,
                 UserId = "be15effc-7aaf-443c-8c02-f31d4eee3e96"
             },
             new Booking
             {
                 Id = 25,
-                ShowId = 22,
+                ShowId = 2,
                 UserId = "9e224968-33e4-4652-b7b7-8574d048cdb9"
             }
         };
