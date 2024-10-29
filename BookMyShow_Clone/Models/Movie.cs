@@ -18,6 +18,7 @@ public class Movie : BaseDomainEntity
     public int DurationInSeconds { get; set; }
 
     public List<Show> Shows { get; set; } = new List<Show>();
+
     public List<CityMovieMapping> CityMovieMappings { get; set; } = new();
     public List<MovieTheatreMapping> MovieTheatreMappings { get; set; } = new();
 }

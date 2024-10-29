@@ -17,6 +17,7 @@ public class ApplicationDbContext : IdentityDbContext<User>
     public DbSet<Seat> Seats { get; set; }
     public DbSet<Booking> Bookings { get; set; }
     public DbSet<BookingSeatMapping> BookingSeatMappings { get; set; }
+
     public DbSet<CityMovieMapping> CityMovieMappings { get; set; }
     public DbSet<MovieTheatreMapping> MovieTheatreMappings { get; set; }
 
@@ -58,19 +59,17 @@ public class ApplicationDbContext : IdentityDbContext<User>
             .OnDelete(DeleteBehavior.Restrict);
 
         modelBuilder.Entity<City>().HasData(seedData.Cities);
-        modelBuilder.Entity<Movie>().HasData(seedData.Movies);
-        modelBuilder.Entity<Theatre>().HasData(seedData.Theatres);
-        modelBuilder.Entity<Screen>().HasData(seedData.Screens);
-        modelBuilder.Entity<Seat>().HasData(seedData.Seats);
-        modelBuilder.Entity<Show>().HasData(seedData.Shows);
-        modelBuilder.Entity<Booking>().HasData(seedData.Bookings);
-        modelBuilder.Entity<BookingSeatMapping>().HasData(seedData.BookingSeatMappings);
-        modelBuilder.Entity<BookingSeatMapping>();
-        modelBuilder.Entity<CityMovieMapping>().HasData(seedData.CityMovieMappings);
-        modelBuilder.Entity<MovieTheatreMapping>().HasData(seedData.MovieTheatreMappings);
-
+        modelBuilder.Entity<Movie>().HasData(seedData.GenerateMovies());
+        modelBuilder.Entity<Theatre>().HasData(seedData.GenerateTheatres());
+        modelBuilder.Entity<Screen>().HasData(seedData.GenerateScreens());
+        modelBuilder.Entity<Seat>().HasData(seedData.GenerateSeats());
+        modelBuilder.Entity<Show>().HasData(seedData.GenerateShows());
+        modelBuilder.Entity<CityMovieMapping>().HasData(seedData.GenerateCityMovieMappings());
         modelBuilder.Entity<IdentityRole>().HasData(seedData.IdentityRoles);
         modelBuilder.Entity<User>().HasData(seedData.Users);
+        modelBuilder.Entity<Booking>().HasData(seedData.GenerateBookings());
+        modelBuilder.Entity<BookingSeatMapping>().HasData(seedData.GenerateBookingSeatMappings());
+        modelBuilder.Entity<MovieTheatreMapping>().HasData(seedData.GenerateMovieTheatreMappings());
     }
 
     public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)

@@ -27,7 +27,7 @@ public class CityEndpoints : CarterModule
             async (IMediator mediator) =>
             {
                 var cities = await mediator.Send(new GetCityListRequest());
-                return Result.Ok(cities);
+                return Results.Ok(cities);
             }
         );
 
@@ -35,8 +35,15 @@ public class CityEndpoints : CarterModule
             "/{id}",
             async (int id, IMediator mediator) =>
             {
-                var city = await mediator.Send(new GetCityByIdRequest { Id = id });
-                return Result.Ok(city);
+                var result = await mediator.Send(new GetCityByIdRequest { Id = id });
+
+                if (result.IsFailed)
+                {
+                    var errors = result.Errors.Select(e => e.Message).ToArray();
+                    return Results.Json(new { errors }, statusCode: StatusCodes.Status404NotFound);
+                }
+
+                return Results.Ok(result.Value);
             }
         );
 

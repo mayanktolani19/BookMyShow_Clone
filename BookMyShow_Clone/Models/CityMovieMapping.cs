@@ -3,10 +3,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace BookMyShow_Clone.Models;
 
-public class CityMovieMapping
+public class CityMovieMapping : BaseDomainEntity
 {
-    [Key]
-    public int Id { get; set; }
     public int CityId { get; set; }
     public City City { get; set; } = null!;
     public int MovieId { get; set; }

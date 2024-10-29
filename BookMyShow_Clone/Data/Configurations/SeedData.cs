@@ -6,89 +6,41 @@ namespace BookMyShow_Clone.Data.Configurations;
 
 public class SeedData
 {
-    public Movie[] Movies { get; set; } =
+    private const int numMovies = 10;
+    private const int numTheatres = 15;
+    private const int numScreens = 30;
+    private const int numSeatsPerScreen = 25;
+    private const int showDays = 3;
+    private const int numBookings = 18;
+    private const int maxSeatsPerBooking = 5;
+    TimeSpan[] showTimings =
+    {
+        new TimeSpan(14, 0, 0),
+        new TimeSpan(17, 0, 0),
+        new TimeSpan(20, 0, 0)
+    };
+
+    public Booking[] Bookings { get; set; } = null!;
+    public Show[] Shows { get; set; } = null!;
+
+    public Movie[] GenerateMovies()
+    {
+        var random = new Random();
+        var movies = new Movie[numMovies];
+
+        for (int i = 0; i < movies.Length; i++)
         {
-            new Movie
+            movies[i] = new Movie
             {
-                Id = 1,
-                Name = "Movie A",
-                ReleaseDate = new DateTime(2024, 1, 1),
-                IsShowingNow = true,
-                DurationInSeconds = 120
-            },
-            new Movie
-            {
-                Id = 2,
-                Name = "Movie B",
-                ReleaseDate = new DateTime(2024, 2, 15),
-                IsShowingNow = false,
-                DurationInSeconds = 90
-            },
-            new Movie
-            {
-                Id = 3,
-                Name = "Movie C",
-                ReleaseDate = new DateTime(2024, 3, 20),
-                IsShowingNow = true,
-                DurationInSeconds = 150
-            },
-            new Movie
-            {
-                Id = 4,
-                Name = "Movie D",
-                ReleaseDate = new DateTime(2024, 4, 10),
-                IsShowingNow = true,
-                DurationInSeconds = 110
-            },
-            new Movie
-            {
-                Id = 5,
-                Name = "Movie E",
-                ReleaseDate = new DateTime(2024, 5, 5),
-                IsShowingNow = false,
-                DurationInSeconds = 95
-            },
-            new Movie
-            {
-                Id = 6,
-                Name = "Movie F",
-                ReleaseDate = new DateTime(2024, 6, 12),
-                IsShowingNow = true,
-                DurationInSeconds = 125
-            },
-            new Movie
-            {
-                Id = 7,
-                Name = "Movie G",
-                ReleaseDate = new DateTime(2024, 7, 18),
-                IsShowingNow = false,
-                DurationInSeconds = 100
-            },
-            new Movie
-            {
-                Id = 8,
-                Name = "Movie H",
-                ReleaseDate = new DateTime(2024, 8, 22),
-                IsShowingNow = true,
-                DurationInSeconds = 140
-            },
-            new Movie
-            {
-                Id = 9,
-                Name = "Movie I",
-                ReleaseDate = new DateTime(2024, 9, 30),
-                IsShowingNow = true,
-                DurationInSeconds = 115
-            },
-            new Movie
-            {
-                Id = 10,
-                Name = "Movie J",
-                ReleaseDate = new DateTime(2024, 10, 15),
-                IsShowingNow = false,
-                DurationInSeconds = 130
-            }
-        };
+                Id = i + 1,
+                Name = $"Movie {(char)('A' + i)}",
+                ReleaseDate = new DateTime(2024, random.Next(1, 13), random.Next(1, 28)),
+                IsShowingNow = random.Next(2) == 0, // Randomly sets to true or false
+                DurationInSeconds = random.Next(90, 151) // Random duration between 90 and 150 minutes
+            };
+        }
+        return movies;
+    }
 
     public City[] Cities { get; set; } =
         {
@@ -99,662 +51,172 @@ public class SeedData
             new City { Id = 5, Name = "Philadelphia" }
         };
 
-    public Theatre[] Theatres { get; set; } =
+    public Theatre[] GenerateTheatres()
+    {
+        var random = new Random();
+        var theatres = new Theatre[numTheatres];
+        for (int i = 0; i < theatres.Length; i++)
         {
-            new Theatre
+            theatres[i] = new Theatre
             {
-                Id = 1,
-                Name = "Theatre 1",
-                Location = "Location 1",
-                CityId = 1
-            },
-            new Theatre
-            {
-                Id = 2,
-                Name = "Theatre 2",
-                Location = "Location 2",
-                CityId = 1
-            },
-            new Theatre
-            {
-                Id = 3,
-                Name = "Theatre 3",
-                Location = "Location 3",
-                CityId = 2
-            },
-            new Theatre
-            {
-                Id = 4,
-                Name = "Theatre 4",
-                Location = "Location 4",
-                CityId = 2
-            },
-            new Theatre
-            {
-                Id = 5,
-                Name = "Theatre 5",
-                Location = "Location 5",
-                CityId = 3
-            },
-            new Theatre
-            {
-                Id = 6,
-                Name = "Theatre 6",
-                Location = "Location 6",
-                CityId = 3
-            },
-            new Theatre
-            {
-                Id = 7,
-                Name = "Theatre 7",
-                Location = "Location 7",
-                CityId = 4
-            },
-            new Theatre
-            {
-                Id = 8,
-                Name = "Theatre 8",
-                Location = "Location 8",
-                CityId = 4
-            },
-            new Theatre
-            {
-                Id = 9,
-                Name = "Theatre 9",
-                Location = "Location 9",
-                CityId = 5
-            },
-            new Theatre
-            {
-                Id = 10,
-                Name = "Theatre 10",
-                Location = "Location 10",
-                CityId = 5
-            },
-            new Theatre
-            {
-                Id = 11,
-                Name = "Theatre 11",
-                Location = "Location 11",
-                CityId = 5
-            },
-            new Theatre
-            {
-                Id = 12,
-                Name = "Theatre 12",
-                Location = "Location 12",
-                CityId = 1
-            },
-            new Theatre
-            {
-                Id = 13,
-                Name = "Theatre 13",
-                Location = "Location 13",
-                CityId = 2
-            },
-            new Theatre
-            {
-                Id = 14,
-                Name = "Theatre 14",
-                Location = "Location 14",
-                CityId = 3
-            },
-            new Theatre
-            {
-                Id = 15,
-                Name = "Theatre 15",
-                Location = "Location 15",
-                CityId = 4
-            }
-        };
+                Id = i + 1,
+                Name = $"Theatre {i + 1}",
+                Location = $"Location {i + 1}",
+                CityId = random.Next(1, Cities.Length + 1) // Randomly assigns a CityId between 1 and 5 inclusive
+            };
+        }
+        return theatres;
+    }
 
-    public Screen[] Screens { get; set; } =
+    public Screen[] GenerateScreens()
+    {
+        var random = new Random();
+        var screens = new Screen[numScreens];
+        for (int i = 0; i < screens.Length; i++)
         {
-            new Screen
+            screens[i] = new Screen
             {
-                Id = 1,
-                Name = "Screen 1",
-                TheatreId = 1
-            },
-            new Screen
-            {
-                Id = 2,
-                Name = "Screen 2",
-                TheatreId = 1
-            },
-            new Screen
-            {
-                Id = 3,
-                Name = "Screen 1",
-                TheatreId = 2
-            },
-            new Screen
-            {
-                Id = 4,
-                Name = "Screen 2",
-                TheatreId = 2
-            },
-            new Screen
-            {
-                Id = 5,
-                Name = "Screen 1",
-                TheatreId = 3
-            },
-            new Screen
-            {
-                Id = 6,
-                Name = "Screen 2",
-                TheatreId = 3
-            },
-            new Screen
-            {
-                Id = 7,
-                Name = "Screen 1",
-                TheatreId = 4
-            },
-            new Screen
-            {
-                Id = 8,
-                Name = "Screen 2",
-                TheatreId = 4
-            },
-            new Screen
-            {
-                Id = 9,
-                Name = "Screen 1",
-                TheatreId = 5
-            },
-            new Screen
-            {
-                Id = 10,
-                Name = "Screen 2",
-                TheatreId = 5
-            },
-            new Screen
-            {
-                Id = 11,
-                Name = "Screen 1",
-                TheatreId = 6
-            },
-            new Screen
-            {
-                Id = 12,
-                Name = "Screen 2",
-                TheatreId = 6
-            },
-            new Screen
-            {
-                Id = 13,
-                Name = "Screen 1",
-                TheatreId = 7
-            },
-            new Screen
-            {
-                Id = 14,
-                Name = "Screen 2",
-                TheatreId = 7
-            },
-            new Screen
-            {
-                Id = 15,
-                Name = "Screen 1",
-                TheatreId = 8
-            },
-            new Screen
-            {
-                Id = 16,
-                Name = "Screen 2",
-                TheatreId = 8
-            },
-            new Screen
-            {
-                Id = 17,
-                Name = "Screen 1",
-                TheatreId = 9
-            },
-            new Screen
-            {
-                Id = 18,
-                Name = "Screen 2",
-                TheatreId = 9
-            },
-            new Screen
-            {
-                Id = 19,
-                Name = "Screen 1",
-                TheatreId = 10
-            },
-            new Screen
-            {
-                Id = 20,
-                Name = "Screen 2",
-                TheatreId = 10
-            }
-        };
+                Id = i + 1,
+                Name = $"Screen {i + 1}",
+                TheatreId = random.Next(1, numTheatres + 1) // Randomly assigns a TheatreId between 1 and numTheatres
+            };
+        }
+        return screens;
+    }
 
-    public Seat[] Seats { get; set; } =
-        {
-            new Seat
-            {
-                Id = 1,
-                ScreenId = 1,
-                SeatNumber = 1,
-                RowNumber = 1
-            },
-            new Seat
-            {
-                Id = 2,
-                ScreenId = 1,
-                SeatNumber = 2,
-                RowNumber = 1
-            },
-            new Seat
-            {
-                Id = 3,
-                ScreenId = 1,
-                SeatNumber = 3,
-                RowNumber = 1
-            },
-            new Seat
-            {
-                Id = 4,
-                ScreenId = 1,
-                SeatNumber = 4,
-                RowNumber = 1
-            },
-            new Seat
-            {
-                Id = 5,
-                ScreenId = 1,
-                SeatNumber = 5,
-                RowNumber = 1
-            },
-            new Seat
-            {
-                Id = 6,
-                ScreenId = 1,
-                SeatNumber = 1,
-                RowNumber = 2
-            },
-            new Seat
-            {
-                Id = 7,
-                ScreenId = 1,
-                SeatNumber = 2,
-                RowNumber = 2
-            },
-            new Seat
-            {
-                Id = 8,
-                ScreenId = 1,
-                SeatNumber = 3,
-                RowNumber = 2
-            },
-            new Seat
-            {
-                Id = 9,
-                ScreenId = 1,
-                SeatNumber = 4,
-                RowNumber = 2
-            },
-            new Seat
-            {
-                Id = 10,
-                ScreenId = 1,
-                SeatNumber = 5,
-                RowNumber = 2
-            },
-            new Seat
-            {
-                Id = 11,
-                ScreenId = 2,
-                SeatNumber = 1,
-                RowNumber = 1
-            },
-            new Seat
-            {
-                Id = 12,
-                ScreenId = 2,
-                SeatNumber = 2,
-                RowNumber = 1
-            },
-            new Seat
-            {
-                Id = 13,
-                ScreenId = 2,
-                SeatNumber = 3,
-                RowNumber = 1
-            },
-            new Seat
-            {
-                Id = 14,
-                ScreenId = 2,
-                SeatNumber = 4,
-                RowNumber = 1
-            },
-            new Seat
-            {
-                Id = 15,
-                ScreenId = 2,
-                SeatNumber = 5,
-                RowNumber = 1
-            },
-            new Seat
-            {
-                Id = 16,
-                ScreenId = 2,
-                SeatNumber = 1,
-                RowNumber = 2
-            },
-            new Seat
-            {
-                Id = 17,
-                ScreenId = 2,
-                SeatNumber = 2,
-                RowNumber = 2
-            },
-            new Seat
-            {
-                Id = 18,
-                ScreenId = 2,
-                SeatNumber = 3,
-                RowNumber = 2
-            },
-            new Seat
-            {
-                Id = 19,
-                ScreenId = 2,
-                SeatNumber = 4,
-                RowNumber = 2
-            },
-            new Seat
-            {
-                Id = 20,
-                ScreenId = 2,
-                SeatNumber = 5,
-                RowNumber = 2
-            },
-            new Seat
-            {
-                Id = 21,
-                ScreenId = 3,
-                SeatNumber = 1,
-                RowNumber = 1
-            },
-            new Seat
-            {
-                Id = 22,
-                ScreenId = 3,
-                SeatNumber = 2,
-                RowNumber = 1
-            },
-            new Seat
-            {
-                Id = 23,
-                ScreenId = 3,
-                SeatNumber = 3,
-                RowNumber = 1
-            },
-            new Seat
-            {
-                Id = 24,
-                ScreenId = 3,
-                SeatNumber = 4,
-                RowNumber = 1
-            },
-            new Seat
-            {
-                Id = 25,
-                ScreenId = 3,
-                SeatNumber = 5,
-                RowNumber = 1
-            },
-            new Seat
-            {
-                Id = 26,
-                ScreenId = 3,
-                SeatNumber = 1,
-                RowNumber = 2
-            },
-            new Seat
-            {
-                Id = 27,
-                ScreenId = 3,
-                SeatNumber = 2,
-                RowNumber = 2
-            },
-            new Seat
-            {
-                Id = 28,
-                ScreenId = 3,
-                SeatNumber = 3,
-                RowNumber = 2
-            },
-            new Seat
-            {
-                Id = 29,
-                ScreenId = 3,
-                SeatNumber = 4,
-                RowNumber = 2
-            },
-            new Seat
-            {
-                Id = 30,
-                ScreenId = 3,
-                SeatNumber = 5,
-                RowNumber = 2
-            }
-        };
+    public Seat[] GenerateSeats()
+    {
+        var seats = new List<Seat>();
+        int seatId = 1;
 
-    public Show[] Shows { get; set; } =
+        for (int screenId = 1; screenId <= numScreens; screenId++)
         {
-            new Show
+            for (int seatNum = 0; seatNum < numSeatsPerScreen; seatNum++)
             {
-                Id = 1,
-                Timing = new DateTime(2024, 9, 1, 14, 0, 0),
-                ScreenId = 1,
-                MovieId = 1
-            },
-            new Show
-            {
-                Id = 2,
-                Timing = new DateTime(2024, 9, 1, 17, 0, 0),
-                ScreenId = 2,
-                MovieId = 2
-            },
-            new Show
-            {
-                Id = 3,
-                Timing = new DateTime(2024, 9, 1, 20, 0, 0),
-                ScreenId = 3,
-                MovieId = 3
-            },
-            new Show
-            {
-                Id = 4,
-                Timing = new DateTime(2024, 9, 2, 14, 0, 0),
-                ScreenId = 4,
-                MovieId = 4
-            },
-            new Show
-            {
-                Id = 5,
-                Timing = new DateTime(2024, 9, 2, 17, 0, 0),
-                ScreenId = 5,
-                MovieId = 5
-            },
-            new Show
-            {
-                Id = 6,
-                Timing = new DateTime(2024, 9, 2, 20, 0, 0),
-                ScreenId = 6,
-                MovieId = 6
-            },
-            new Show
-            {
-                Id = 7,
-                Timing = new DateTime(2024, 9, 3, 14, 0, 0),
-                ScreenId = 7,
-                MovieId = 7
-            },
-            new Show
-            {
-                Id = 8,
-                Timing = new DateTime(2024, 9, 3, 17, 0, 0),
-                ScreenId = 8,
-                MovieId = 8
-            },
-            new Show
-            {
-                Id = 9,
-                Timing = new DateTime(2024, 9, 3, 20, 0, 0),
-                ScreenId = 9,
-                MovieId = 9
-            },
-            new Show
-            {
-                Id = 10,
-                Timing = new DateTime(2024, 9, 4, 14, 0, 0),
-                ScreenId = 10,
-                MovieId = 10
+                seats.Add(
+                    new Seat
+                    {
+                        Id = seatId++,
+                        ScreenId = screenId,
+                        RowNumber = (seatNum / 5) + 1, // 5 seats per row, giving 5 rows total per screen
+                        SeatNumber = (seatNum % 5) + 1
+                    }
+                );
             }
-        };
+        }
 
-    public CityMovieMapping[] CityMovieMappings { get; set; } =
-        {
-            new CityMovieMapping
-            {
-                Id = 1,
-                CityId = 1,
-                MovieId = 1
-            },
-            new CityMovieMapping
-            {
-                Id = 2,
-                CityId = 1,
-                MovieId = 2
-            },
-            new CityMovieMapping
-            {
-                Id = 3,
-                CityId = 2,
-                MovieId = 3
-            },
-            new CityMovieMapping
-            {
-                Id = 4,
-                CityId = 2,
-                MovieId = 4
-            },
-            new CityMovieMapping
-            {
-                Id = 5,
-                CityId = 3,
-                MovieId = 5
-            },
-            new CityMovieMapping
-            {
-                Id = 6,
-                CityId = 3,
-                MovieId = 6
-            },
-            new CityMovieMapping
-            {
-                Id = 7,
-                CityId = 4,
-                MovieId = 7
-            },
-            new CityMovieMapping
-            {
-                Id = 8,
-                CityId = 4,
-                MovieId = 8
-            },
-            new CityMovieMapping
-            {
-                Id = 9,
-                CityId = 5,
-                MovieId = 9
-            },
-            new CityMovieMapping
-            {
-                Id = 10,
-                CityId = 5,
-                MovieId = 10
-            }
-        };
+        return seats.ToArray();
+    }
 
-    public MovieTheatreMapping[] MovieTheatreMappings { get; set; } =
+    public Show[] GenerateShows()
+    {
+        var random = new Random();
+        var shows = new List<Show>();
+        int showId = 1;
+
+        // Define potential timings for shows (e.g., 14:00, 17:00, 20:00)
+
+        // Generate shows for each screen
+        for (int screenId = 1; screenId <= numScreens; screenId++)
         {
-            new MovieTheatreMapping
+            // Generate shows over few days
+            for (int dayOffset = 0; dayOffset < showDays; dayOffset++)
             {
-                Id = 1,
-                MovieId = 1,
-                TheatreId = 1
-            },
-            new MovieTheatreMapping
-            {
-                Id = 2,
-                MovieId = 2,
-                TheatreId = 1
-            },
-            new MovieTheatreMapping
-            {
-                Id = 3,
-                MovieId = 3,
-                TheatreId = 2
-            },
-            new MovieTheatreMapping
-            {
-                Id = 4,
-                MovieId = 4,
-                TheatreId = 3
-            },
-            new MovieTheatreMapping
-            {
-                Id = 5,
-                MovieId = 5,
-                TheatreId = 4
-            },
-            new MovieTheatreMapping
-            {
-                Id = 6,
-                MovieId = 6,
-                TheatreId = 5
-            },
-            new MovieTheatreMapping
-            {
-                Id = 7,
-                MovieId = 7,
-                TheatreId = 6
-            },
-            new MovieTheatreMapping
-            {
-                Id = 8,
-                MovieId = 8,
-                TheatreId = 7
-            },
-            new MovieTheatreMapping
-            {
-                Id = 9,
-                MovieId = 9,
-                TheatreId = 8
-            },
-            new MovieTheatreMapping
-            {
-                Id = 10,
-                MovieId = 10,
-                TheatreId = 9
+                foreach (var time in showTimings)
+                {
+                    shows.Add(
+                        new Show
+                        {
+                            Id = showId++,
+                            Timing = new DateTime(2024, 11, 1).AddDays(dayOffset).Add(time),
+                            ScreenId = screenId,
+                            MovieId = random.Next(1, numMovies + 1) // Randomly assign a movie ID
+                        }
+                    );
+                }
             }
-        };
+        }
+        Shows = shows.ToArray();
+        return Shows;
+    }
+
+    public CityMovieMapping[] GenerateCityMovieMappings()
+    {
+        var random = new Random();
+        var mappings = new List<CityMovieMapping>();
+        int mappingId = 1;
+
+        // Each city will be mapped to a few random movies
+        for (int cityId = 1; cityId <= Cities.Length; cityId++)
+        {
+            // Determine the number of movies for each city (e.g., each city shows 2-4 movies)
+            int moviesInCity = random.Next(2, 5); // Choose between 2 to 4 movies per city
+
+            var selectedMovies = new HashSet<int>();
+            for (int i = 0; i < moviesInCity; i++)
+            {
+                int movieId;
+                do
+                {
+                    movieId = random.Next(1, numMovies + 1); // Get a random movie ID between 1 and numMovies
+                } while (!selectedMovies.Add(movieId)); // Ensure each movie is mapped only once in a city
+
+                mappings.Add(
+                    new CityMovieMapping
+                    {
+                        Id = mappingId++,
+                        CityId = cityId,
+                        MovieId = movieId
+                    }
+                );
+            }
+        }
+
+        return mappings.ToArray();
+    }
+
+    public MovieTheatreMapping[] GenerateMovieTheatreMappings()
+    {
+        var random = new Random();
+        var mappings = new List<MovieTheatreMapping>();
+        int mappingId = 1;
+
+        // Each theatre will show a few random movies
+        for (int theatreId = 1; theatreId <= numTheatres; theatreId++)
+        {
+            // Determine the number of movies for each theatre (e.g., each theatre shows 2-3 movies)
+            int moviesInTheatre = random.Next(2, 4); // Choose between 2 to 3 movies per theatre
+
+            var selectedMovies = new HashSet<int>();
+            for (int i = 0; i < moviesInTheatre; i++)
+            {
+                int movieId;
+                do
+                {
+                    movieId = random.Next(1, numMovies + 1); // Get a random movie ID between 1 and numMovies
+                } while (!selectedMovies.Add(movieId)); // Ensure each movie is unique for the theatre
+
+                mappings.Add(
+                    new MovieTheatreMapping
+                    {
+                        Id = mappingId++,
+                        MovieId = movieId,
+                        TheatreId = theatreId
+                    }
+                );
+            }
+        }
+
+        return mappings.ToArray();
+    }
 
     public IdentityRole[] IdentityRoles { get; set; } =
         {
             new IdentityRole
             {
                 Id = "cac43a6e-f7bb-4448-baaf-1add431ccbbf",
-                Name = "Employee",
-                NormalizedName = "EMPLOYEE"
+                Name = "User",
+                NormalizedName = "USER"
             },
             new IdentityRole
             {
@@ -816,311 +278,72 @@ public class SeedData
             }
         };
 
-    public Booking[] Bookings { get; set; } =
+    public Booking[] GenerateBookings()
+    {
+        var random = new Random();
+        var userIds = new[]
         {
-            new Booking
-            {
-                Id = 1,
-                ShowId = 1,
-                UserId = "9e224968-33e4-4652-b7b7-8574d048cdb9"
-            }, // Mayank Tolani
-            new Booking
-            {
-                Id = 2,
-                ShowId = 2,
-                UserId = "662ea775-6b80-49b3-9414-d03bcc043ec8"
-            }, // Ameesh Singh
-            new Booking
-            {
-                Id = 3,
-                ShowId = 3,
-                UserId = "be15effc-7aaf-443c-8c02-f31d4eee3e96"
-            }, // Prince Singh
-            new Booking
-            {
-                Id = 4,
-                ShowId = 1,
-                UserId = "9e224968-33e4-4652-b7b7-8574d048cdb9"
-            }, // Mayank Tolani
-            new Booking
-            {
-                Id = 5,
-                ShowId = 2,
-                UserId = "662ea775-6b80-49b3-9414-d03bcc043ec8"
-            }, // Ameesh Singh
-            new Booking
-            {
-                Id = 6,
-                ShowId = 3,
-                UserId = "be15effc-7aaf-443c-8c02-f31d4eee3e96"
-            }, // Prince Singh
-            new Booking
-            {
-                Id = 7,
-                ShowId = 4,
-                UserId = "9e224968-33e4-4652-b7b7-8574d048cdb9"
-            },
-            new Booking
-            {
-                Id = 8,
-                ShowId = 5,
-                UserId = "662ea775-6b80-49b3-9414-d03bcc043ec8"
-            },
-            new Booking
-            {
-                Id = 9,
-                ShowId = 6,
-                UserId = "be15effc-7aaf-443c-8c02-f31d4eee3e96"
-            },
-            new Booking
-            {
-                Id = 10,
-                ShowId = 7,
-                UserId = "9e224968-33e4-4652-b7b7-8574d048cdb9"
-            },
-            new Booking
-            {
-                Id = 11,
-                ShowId = 8,
-                UserId = "662ea775-6b80-49b3-9414-d03bcc043ec8"
-            },
-            new Booking
-            {
-                Id = 12,
-                ShowId = 9,
-                UserId = "be15effc-7aaf-443c-8c02-f31d4eee3e96"
-            },
-            new Booking
-            {
-                Id = 13,
-                ShowId = 4,
-                UserId = "9e224968-33e4-4652-b7b7-8574d048cdb9"
-            },
-            new Booking
-            {
-                Id = 14,
-                ShowId = 9,
-                UserId = "662ea775-6b80-49b3-9414-d03bcc043ec8"
-            },
-            new Booking
-            {
-                Id = 15,
-                ShowId = 5,
-                UserId = "be15effc-7aaf-443c-8c02-f31d4eee3e96"
-            },
-            new Booking
-            {
-                Id = 16,
-                ShowId = 4,
-                UserId = "9e224968-33e4-4652-b7b7-8574d048cdb9"
-            },
-            new Booking
-            {
-                Id = 17,
-                ShowId = 3,
-                UserId = "662ea775-6b80-49b3-9414-d03bcc043ec8"
-            },
-            new Booking
-            {
-                Id = 18,
-                ShowId = 5,
-                UserId = "be15effc-7aaf-443c-8c02-f31d4eee3e96"
-            },
-            new Booking
-            {
-                Id = 19,
-                ShowId = 6,
-                UserId = "9e224968-33e4-4652-b7b7-8574d048cdb9"
-            },
-            new Booking
-            {
-                Id = 20,
-                ShowId = 7,
-                UserId = "662ea775-6b80-49b3-9414-d03bcc043ec8"
-            },
-            new Booking
-            {
-                Id = 21,
-                ShowId = 8,
-                UserId = "be15effc-7aaf-443c-8c02-f31d4eee3e96"
-            },
-            new Booking
-            {
-                Id = 22,
-                ShowId = 9,
-                UserId = "9e224968-33e4-4652-b7b7-8574d048cdb9"
-            },
-            new Booking
-            {
-                Id = 23,
-                ShowId = 2,
-                UserId = "662ea775-6b80-49b3-9414-d03bcc043ec8"
-            },
-            new Booking
-            {
-                Id = 24,
-                ShowId = 1,
-                UserId = "be15effc-7aaf-443c-8c02-f31d4eee3e96"
-            },
-            new Booking
-            {
-                Id = 25,
-                ShowId = 2,
-                UserId = "9e224968-33e4-4652-b7b7-8574d048cdb9"
-            }
+            "9e224968-33e4-4652-b7b7-8574d048cdb9", // Mayank Tolani
+            "662ea775-6b80-49b3-9414-d03bcc043ec8", // Ameesh Singh
+            "be15effc-7aaf-443c-8c02-f31d4eee3e96" // Prince Singh
         };
 
-    public BookingSeatMapping[] BookingSeatMappings { get; set; } =
+        var bookings = new Booking[numBookings];
+        for (int i = 0; i < numBookings; i++)
         {
-            new BookingSeatMapping
+            bookings[i] = new Booking
             {
-                Id = 1,
-                BookingId = 1,
-                SeatId = 1
-            },
-            new BookingSeatMapping
+                Id = i + 1,
+                ShowId = random.Next(1, Shows.Length + 1),
+                UserId = userIds[random.Next(userIds.Length)]
+            };
+        }
+        Bookings = bookings;
+        return bookings;
+    }
+
+    public BookingSeatMapping[] GenerateBookingSeatMappings()
+    {
+        var random = new Random();
+        var bookingSeatMappings = new List<BookingSeatMapping>();
+        int idCounter = 1;
+
+        foreach (var booking in Bookings)
+        {
+            // Find the ScreenId for the show associated with the booking
+            var show = Shows.FirstOrDefault(s => s.Id == booking.ShowId);
+            if (show == null)
+                continue;
+
+            // Calculate the seat range for the screen
+            int startSeatId = (show.ScreenId - 1) * numSeatsPerScreen + 1;
+            int endSeatId = startSeatId + numSeatsPerScreen - 1;
+
+            // Determine the number of seats to book for this booking
+            int seatsForThisBooking = random.Next(1, maxSeatsPerBooking + 1);
+
+            var assignedSeats = new HashSet<int>();
+
+            // Randomly select seats within the calculated range for this screen
+            for (int i = 0; i < seatsForThisBooking; i++)
             {
-                Id = 2,
-                BookingId = 2,
-                SeatId = 2
-            },
-            new BookingSeatMapping
-            {
-                Id = 3,
-                BookingId = 3,
-                SeatId = 3
-            },
-            new BookingSeatMapping
-            {
-                Id = 4,
-                BookingId = 4,
-                SeatId = 4
-            },
-            new BookingSeatMapping
-            {
-                Id = 5,
-                BookingId = 5,
-                SeatId = 5
-            },
-            new BookingSeatMapping
-            {
-                Id = 6,
-                BookingId = 6,
-                SeatId = 6
-            },
-            new BookingSeatMapping
-            {
-                Id = 7,
-                BookingId = 7,
-                SeatId = 7
-            },
-            new BookingSeatMapping
-            {
-                Id = 8,
-                BookingId = 8,
-                SeatId = 8
-            },
-            new BookingSeatMapping
-            {
-                Id = 9,
-                BookingId = 9,
-                SeatId = 9
-            },
-            new BookingSeatMapping
-            {
-                Id = 10,
-                BookingId = 10,
-                SeatId = 10
-            },
-            new BookingSeatMapping
-            {
-                Id = 11,
-                BookingId = 11,
-                SeatId = 1
-            },
-            new BookingSeatMapping
-            {
-                Id = 12,
-                BookingId = 12,
-                SeatId = 2
-            },
-            new BookingSeatMapping
-            {
-                Id = 13,
-                BookingId = 13,
-                SeatId = 3
-            },
-            new BookingSeatMapping
-            {
-                Id = 14,
-                BookingId = 14,
-                SeatId = 4
-            },
-            new BookingSeatMapping
-            {
-                Id = 15,
-                BookingId = 15,
-                SeatId = 5
-            },
-            new BookingSeatMapping
-            {
-                Id = 16,
-                BookingId = 16,
-                SeatId = 6
-            },
-            new BookingSeatMapping
-            {
-                Id = 17,
-                BookingId = 17,
-                SeatId = 7
-            },
-            new BookingSeatMapping
-            {
-                Id = 18,
-                BookingId = 18,
-                SeatId = 8
-            },
-            new BookingSeatMapping
-            {
-                Id = 19,
-                BookingId = 19,
-                SeatId = 9
-            },
-            new BookingSeatMapping
-            {
-                Id = 20,
-                BookingId = 20,
-                SeatId = 10
-            },
-            new BookingSeatMapping
-            {
-                Id = 21,
-                BookingId = 21,
-                SeatId = 1
-            },
-            new BookingSeatMapping
-            {
-                Id = 22,
-                BookingId = 22,
-                SeatId = 2
-            },
-            new BookingSeatMapping
-            {
-                Id = 23,
-                BookingId = 23,
-                SeatId = 3
-            },
-            new BookingSeatMapping
-            {
-                Id = 24,
-                BookingId = 24,
-                SeatId = 4
-            },
-            new BookingSeatMapping
-            {
-                Id = 25,
-                BookingId = 25,
-                SeatId = 5
-            },
-        };
+                int seatId;
+                do
+                {
+                    seatId = random.Next(startSeatId, endSeatId + 1);
+                } while (!assignedSeats.Add(seatId)); // Ensure each seat is unique within the booking
+
+                bookingSeatMappings.Add(
+                    new BookingSeatMapping
+                    {
+                        Id = idCounter++,
+                        BookingId = booking.Id,
+                        SeatId = seatId
+                    }
+                );
+            }
+        }
+
+        return bookingSeatMappings.ToArray();
+    }
 }
