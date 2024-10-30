@@ -54,7 +54,16 @@ public class CityEndpoints : CarterModule
                 Result<CityDto> cityResult = await mediator.Send(
                     new CreateCityCommand { CreateCityDto = createCityDto }
                 );
-                return cityResult;
+                if (cityResult.IsFailed)
+                {
+                    var errors = cityResult.Errors.Select(e => e.Message).ToArray();
+                    return Results.Json(
+                        new { errors },
+                        statusCode: StatusCodes.Status400BadRequest
+                    );
+                }
+
+                return Results.Ok(cityResult.Value);
             }
         );
 
@@ -65,20 +74,36 @@ public class CityEndpoints : CarterModule
                 Result<CityDto> updateCityResult = await mediator.Send(
                     new UpdateCityCommand { UpdateCityDto = updateCityDto }
                 );
-                return updateCityResult;
+                if (updateCityResult.IsFailed)
+                {
+                    var errors = updateCityResult.Errors.Select(e => e.Message).ToArray();
+                    return Results.Json(
+                        new { errors },
+                        statusCode: StatusCodes.Status400BadRequest
+                    );
+                }
+                return Results.Ok(updateCityResult.Value);
             }
         );
 
         app.MapDelete(
             "{id}/{softDelete}",
-            async (int id, bool softDelete, IMediator mediator) =>
+            async (int id, IMediator mediator, [FromQuery] bool softDelete = true) =>
             {
                 Result<bool> deleteCityResult;
                 if (softDelete)
                     deleteCityResult = await mediator.Send(new SoftDeleteCityCommand { Id = id });
                 else
                     deleteCityResult = await mediator.Send(new DeleteCityCommand { Id = id });
-                return deleteCityResult;
+                if (deleteCityResult.IsFailed)
+                {
+                    var errors = deleteCityResult.Errors.Select(e => e.Message).ToArray();
+                    return Results.Json(
+                        new { errors },
+                        statusCode: StatusCodes.Status400BadRequest
+                    );
+                }
+                return Results.Ok();
             }
         );
     }

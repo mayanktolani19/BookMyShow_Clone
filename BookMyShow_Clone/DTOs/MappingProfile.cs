@@ -10,6 +10,8 @@ public class MappingProfile : Profile
     public MappingProfile()
     {
         CreateMap<City, CityDto>().ReverseMap();
+        CreateMap<City, CreateCityDto>().ReverseMap();
+        CreateMap<City, UpdateCityDto>().ReverseMap();
         // CreateMap<LeaveRequest, LeaveRequestListDto>()
         //     .ForMember(dest => dest.DateRequested, opt => opt.MapFrom(src => src.DateCreated))
         //     .ReverseMap();

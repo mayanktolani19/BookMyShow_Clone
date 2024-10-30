@@ -70,6 +70,21 @@ public class ApplicationDbContext : IdentityDbContext<User>
         modelBuilder.Entity<Booking>().HasData(seedData.GenerateBookings());
         modelBuilder.Entity<BookingSeatMapping>().HasData(seedData.GenerateBookingSeatMappings());
         modelBuilder.Entity<MovieTheatreMapping>().HasData(seedData.GenerateMovieTheatreMappings());
+
+        // Apply the filter to all entities inheriting from BaseDomainEntity
+        modelBuilder.Entity<City>().HasQueryFilter(e => !e.IsDeleted);
+        modelBuilder.Entity<Movie>().HasQueryFilter(e => !e.IsDeleted);
+        modelBuilder.Entity<Theatre>().HasQueryFilter(e => !e.IsDeleted);
+        modelBuilder.Entity<Screen>().HasQueryFilter(e => !e.IsDeleted);
+        modelBuilder.Entity<Seat>().HasQueryFilter(e => !e.IsDeleted);
+        modelBuilder.Entity<Show>().HasQueryFilter(e => !e.IsDeleted);
+        modelBuilder.Entity<CityMovieMapping>().HasQueryFilter(e => !e.IsDeleted);
+        modelBuilder.Entity<Booking>().HasQueryFilter(e => !e.IsDeleted);
+        modelBuilder.Entity<BookingSeatMapping>().HasQueryFilter(e => !e.IsDeleted);
+        modelBuilder.Entity<MovieTheatreMapping>().HasQueryFilter(e => !e.IsDeleted);
+
+        // How to override the filter
+        // var allEntities = await context.YourEntities.IgnoreQueryFilters().ToListAsync();
     }
 
     public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
