@@ -21,9 +21,19 @@ public class ApplicationDbContext : IdentityDbContext<User>
     public DbSet<CityMovieMapping> CityMovieMappings { get; set; }
     public DbSet<MovieTheatreMapping> MovieTheatreMappings { get; set; }
 
+    public DbSet<SaveChangesAudit> SaveChangesAudits { get; set; }
+    public DbSet<EntityAudit> EntityAudits { get; set; }
+
+    private readonly AuditingInterceptor _auditingInterceptor = new AuditingInterceptor();
+
+    
     public ApplicationDbContext(DbContextOptions dbContextOptions)
         : base(dbContextOptions) { }
 
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        => optionsBuilder
+            .AddInterceptors(_auditingInterceptor);
+    
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);

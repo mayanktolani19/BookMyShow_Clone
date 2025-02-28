@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BookMyShow_Clone.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241029133216_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20250228203203_UpdateChangeLogTablefix")]
+    partial class UpdateChangeLogTablefix
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -70,7 +70,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ShowId = 14,
+                            ShowId = 145,
                             UserId = "be15effc-7aaf-443c-8c02-f31d4eee3e96"
                         },
                         new
@@ -79,8 +79,8 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ShowId = 37,
-                            UserId = "662ea775-6b80-49b3-9414-d03bcc043ec8"
+                            ShowId = 269,
+                            UserId = "9e224968-33e4-4652-b7b7-8574d048cdb9"
                         },
                         new
                         {
@@ -88,8 +88,8 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ShowId = 218,
-                            UserId = "9e224968-33e4-4652-b7b7-8574d048cdb9"
+                            ShowId = 238,
+                            UserId = "662ea775-6b80-49b3-9414-d03bcc043ec8"
                         },
                         new
                         {
@@ -97,8 +97,8 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ShowId = 152,
-                            UserId = "be15effc-7aaf-443c-8c02-f31d4eee3e96"
+                            ShowId = 133,
+                            UserId = "662ea775-6b80-49b3-9414-d03bcc043ec8"
                         },
                         new
                         {
@@ -106,8 +106,8 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ShowId = 254,
-                            UserId = "662ea775-6b80-49b3-9414-d03bcc043ec8"
+                            ShowId = 208,
+                            UserId = "be15effc-7aaf-443c-8c02-f31d4eee3e96"
                         },
                         new
                         {
@@ -115,8 +115,8 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ShowId = 31,
-                            UserId = "662ea775-6b80-49b3-9414-d03bcc043ec8"
+                            ShowId = 201,
+                            UserId = "9e224968-33e4-4652-b7b7-8574d048cdb9"
                         },
                         new
                         {
@@ -124,7 +124,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ShowId = 36,
+                            ShowId = 255,
                             UserId = "9e224968-33e4-4652-b7b7-8574d048cdb9"
                         },
                         new
@@ -133,7 +133,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ShowId = 36,
+                            ShowId = 111,
                             UserId = "be15effc-7aaf-443c-8c02-f31d4eee3e96"
                         },
                         new
@@ -142,7 +142,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ShowId = 24,
+                            ShowId = 205,
                             UserId = "662ea775-6b80-49b3-9414-d03bcc043ec8"
                         },
                         new
@@ -151,8 +151,8 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ShowId = 141,
-                            UserId = "9e224968-33e4-4652-b7b7-8574d048cdb9"
+                            ShowId = 140,
+                            UserId = "be15effc-7aaf-443c-8c02-f31d4eee3e96"
                         },
                         new
                         {
@@ -160,7 +160,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ShowId = 257,
+                            ShowId = 179,
                             UserId = "be15effc-7aaf-443c-8c02-f31d4eee3e96"
                         },
                         new
@@ -169,8 +169,8 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ShowId = 152,
-                            UserId = "be15effc-7aaf-443c-8c02-f31d4eee3e96"
+                            ShowId = 263,
+                            UserId = "662ea775-6b80-49b3-9414-d03bcc043ec8"
                         },
                         new
                         {
@@ -178,8 +178,8 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ShowId = 143,
-                            UserId = "9e224968-33e4-4652-b7b7-8574d048cdb9"
+                            ShowId = 51,
+                            UserId = "662ea775-6b80-49b3-9414-d03bcc043ec8"
                         },
                         new
                         {
@@ -187,8 +187,8 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ShowId = 267,
-                            UserId = "9e224968-33e4-4652-b7b7-8574d048cdb9"
+                            ShowId = 251,
+                            UserId = "be15effc-7aaf-443c-8c02-f31d4eee3e96"
                         },
                         new
                         {
@@ -196,7 +196,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ShowId = 122,
+                            ShowId = 172,
                             UserId = "9e224968-33e4-4652-b7b7-8574d048cdb9"
                         },
                         new
@@ -205,8 +205,8 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ShowId = 37,
-                            UserId = "be15effc-7aaf-443c-8c02-f31d4eee3e96"
+                            ShowId = 35,
+                            UserId = "9e224968-33e4-4652-b7b7-8574d048cdb9"
                         },
                         new
                         {
@@ -214,8 +214,8 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ShowId = 25,
-                            UserId = "9e224968-33e4-4652-b7b7-8574d048cdb9"
+                            ShowId = 45,
+                            UserId = "662ea775-6b80-49b3-9414-d03bcc043ec8"
                         },
                         new
                         {
@@ -223,8 +223,8 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ShowId = 261,
-                            UserId = "662ea775-6b80-49b3-9414-d03bcc043ec8"
+                            ShowId = 90,
+                            UserId = "9e224968-33e4-4652-b7b7-8574d048cdb9"
                         });
                 });
 
@@ -273,7 +273,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 26
+                            SeatId = 418
                         },
                         new
                         {
@@ -282,7 +282,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 46
+                            SeatId = 425
                         },
                         new
                         {
@@ -291,16 +291,16 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 40
+                            SeatId = 419
                         },
                         new
                         {
                             Id = 4,
-                            BookingId = 2,
+                            BookingId = 1,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 108
+                            SeatId = 413
                         },
                         new
                         {
@@ -309,7 +309,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 118
+                            SeatId = 737
                         },
                         new
                         {
@@ -318,7 +318,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 120
+                            SeatId = 731
                         },
                         new
                         {
@@ -327,7 +327,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 624
+                            SeatId = 667
                         },
                         new
                         {
@@ -336,25 +336,25 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 621
+                            SeatId = 666
                         },
                         new
                         {
                             Id = 9,
-                            BookingId = 3,
+                            BookingId = 4,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 615
+                            SeatId = 370
                         },
                         new
                         {
                             Id = 10,
-                            BookingId = 3,
+                            BookingId = 4,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 611
+                            SeatId = 375
                         },
                         new
                         {
@@ -363,7 +363,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 416
+                            SeatId = 365
                         },
                         new
                         {
@@ -372,227 +372,119 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 414
+                            SeatId = 368
                         },
                         new
                         {
                             Id = 13,
-                            BookingId = 4,
+                            BookingId = 5,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 421
+                            SeatId = 583
                         },
                         new
                         {
                             Id = 14,
-                            BookingId = 4,
+                            BookingId = 6,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 412
+                            SeatId = 561
                         },
                         new
                         {
                             Id = 15,
-                            BookingId = 5,
+                            BookingId = 6,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 718
+                            SeatId = 562
                         },
                         new
                         {
                             Id = 16,
-                            BookingId = 5,
+                            BookingId = 6,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 721
+                            SeatId = 567
                         },
                         new
                         {
                             Id = 17,
-                            BookingId = 5,
+                            BookingId = 7,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 706
+                            SeatId = 708
                         },
                         new
                         {
                             Id = 18,
-                            BookingId = 5,
+                            BookingId = 8,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 723
+                            SeatId = 314
                         },
                         new
                         {
                             Id = 19,
-                            BookingId = 5,
+                            BookingId = 9,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 724
+                            SeatId = 561
                         },
                         new
                         {
                             Id = 20,
-                            BookingId = 6,
+                            BookingId = 9,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 96
+                            SeatId = 554
                         },
                         new
                         {
                             Id = 21,
-                            BookingId = 6,
+                            BookingId = 9,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 100
+                            SeatId = 572
                         },
                         new
                         {
                             Id = 22,
-                            BookingId = 6,
+                            BookingId = 10,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 98
+                            SeatId = 383
                         },
                         new
                         {
                             Id = 23,
-                            BookingId = 6,
+                            BookingId = 10,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 97
+                            SeatId = 400
                         },
                         new
                         {
                             Id = 24,
-                            BookingId = 7,
+                            BookingId = 10,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 92
+                            SeatId = 394
                         },
                         new
                         {
                             Id = 25,
-                            BookingId = 7,
-                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IsDeleted = false,
-                            LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 77
-                        },
-                        new
-                        {
-                            Id = 26,
-                            BookingId = 7,
-                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IsDeleted = false,
-                            LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 86
-                        },
-                        new
-                        {
-                            Id = 27,
-                            BookingId = 8,
-                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IsDeleted = false,
-                            LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 99
-                        },
-                        new
-                        {
-                            Id = 28,
-                            BookingId = 8,
-                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IsDeleted = false,
-                            LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 86
-                        },
-                        new
-                        {
-                            Id = 29,
-                            BookingId = 8,
-                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IsDeleted = false,
-                            LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 76
-                        },
-                        new
-                        {
-                            Id = 30,
-                            BookingId = 8,
-                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IsDeleted = false,
-                            LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 95
-                        },
-                        new
-                        {
-                            Id = 31,
-                            BookingId = 8,
-                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IsDeleted = false,
-                            LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 100
-                        },
-                        new
-                        {
-                            Id = 32,
-                            BookingId = 9,
-                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IsDeleted = false,
-                            LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 66
-                        },
-                        new
-                        {
-                            Id = 33,
-                            BookingId = 9,
-                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IsDeleted = false,
-                            LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 60
-                        },
-                        new
-                        {
-                            Id = 34,
-                            BookingId = 9,
-                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IsDeleted = false,
-                            LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 57
-                        },
-                        new
-                        {
-                            Id = 35,
-                            BookingId = 9,
-                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IsDeleted = false,
-                            LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 54
-                        },
-                        new
-                        {
-                            Id = 36,
-                            BookingId = 9,
-                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IsDeleted = false,
-                            LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 65
-                        },
-                        new
-                        {
-                            Id = 37,
                             BookingId = 10,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
@@ -601,16 +493,7 @@ namespace BookMyShow_Clone.Migrations
                         },
                         new
                         {
-                            Id = 38,
-                            BookingId = 10,
-                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IsDeleted = false,
-                            LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 395
-                        },
-                        new
-                        {
-                            Id = 39,
+                            Id = 26,
                             BookingId = 10,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
@@ -619,134 +502,26 @@ namespace BookMyShow_Clone.Migrations
                         },
                         new
                         {
-                            Id = 40,
-                            BookingId = 10,
-                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IsDeleted = false,
-                            LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 399
-                        },
-                        new
-                        {
-                            Id = 41,
+                            Id = 27,
                             BookingId = 11,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 719
+                            SeatId = 485
                         },
                         new
                         {
-                            Id = 42,
+                            Id = 28,
                             BookingId = 11,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 705
+                            SeatId = 488
                         },
                         new
                         {
-                            Id = 43,
-                            BookingId = 11,
-                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IsDeleted = false,
-                            LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 713
-                        },
-                        new
-                        {
-                            Id = 44,
-                            BookingId = 11,
-                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IsDeleted = false,
-                            LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 714
-                        },
-                        new
-                        {
-                            Id = 45,
+                            Id = 29,
                             BookingId = 12,
-                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IsDeleted = false,
-                            LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 420
-                        },
-                        new
-                        {
-                            Id = 46,
-                            BookingId = 12,
-                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IsDeleted = false,
-                            LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 424
-                        },
-                        new
-                        {
-                            Id = 47,
-                            BookingId = 12,
-                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IsDeleted = false,
-                            LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 407
-                        },
-                        new
-                        {
-                            Id = 48,
-                            BookingId = 12,
-                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IsDeleted = false,
-                            LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 409
-                        },
-                        new
-                        {
-                            Id = 49,
-                            BookingId = 13,
-                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IsDeleted = false,
-                            LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 391
-                        },
-                        new
-                        {
-                            Id = 50,
-                            BookingId = 13,
-                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IsDeleted = false,
-                            LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 390
-                        },
-                        new
-                        {
-                            Id = 51,
-                            BookingId = 13,
-                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IsDeleted = false,
-                            LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 398
-                        },
-                        new
-                        {
-                            Id = 52,
-                            BookingId = 13,
-                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IsDeleted = false,
-                            LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 378
-                        },
-                        new
-                        {
-                            Id = 53,
-                            BookingId = 14,
-                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IsDeleted = false,
-                            LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 738
-                        },
-                        new
-                        {
-                            Id = 54,
-                            BookingId = 14,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
@@ -754,71 +529,134 @@ namespace BookMyShow_Clone.Migrations
                         },
                         new
                         {
-                            Id = 55,
+                            Id = 30,
+                            BookingId = 13,
+                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsDeleted = false,
+                            LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            SeatId = 143
+                        },
+                        new
+                        {
+                            Id = 31,
+                            BookingId = 13,
+                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsDeleted = false,
+                            LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            SeatId = 139
+                        },
+                        new
+                        {
+                            Id = 32,
+                            BookingId = 13,
+                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsDeleted = false,
+                            LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            SeatId = 145
+                        },
+                        new
+                        {
+                            Id = 33,
                             BookingId = 14,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 734
+                            SeatId = 692
                         },
                         new
                         {
-                            Id = 56,
+                            Id = 34,
                             BookingId = 14,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 727
+                            SeatId = 677
                         },
                         new
                         {
-                            Id = 57,
+                            Id = 35,
+                            BookingId = 14,
+                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsDeleted = false,
+                            LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            SeatId = 697
+                        },
+                        new
+                        {
+                            Id = 36,
                             BookingId = 15,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 334
+                            SeatId = 476
                         },
                         new
                         {
-                            Id = 58,
+                            Id = 37,
+                            BookingId = 15,
+                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsDeleted = false,
+                            LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            SeatId = 499
+                        },
+                        new
+                        {
+                            Id = 38,
+                            BookingId = 15,
+                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsDeleted = false,
+                            LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            SeatId = 487
+                        },
+                        new
+                        {
+                            Id = 39,
+                            BookingId = 15,
+                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsDeleted = false,
+                            LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            SeatId = 492
+                        },
+                        new
+                        {
+                            Id = 40,
                             BookingId = 16,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 108
+                            SeatId = 90
                         },
                         new
                         {
-                            Id = 59,
+                            Id = 41,
                             BookingId = 16,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 106
+                            SeatId = 94
                         },
                         new
                         {
-                            Id = 60,
+                            Id = 42,
                             BookingId = 16,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 102
+                            SeatId = 98
                         },
                         new
                         {
-                            Id = 61,
+                            Id = 43,
                             BookingId = 16,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 123
+                            SeatId = 76
                         },
                         new
                         {
-                            Id = 62,
-                            BookingId = 16,
+                            Id = 44,
+                            BookingId = 17,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
@@ -826,21 +664,39 @@ namespace BookMyShow_Clone.Migrations
                         },
                         new
                         {
-                            Id = 63,
+                            Id = 45,
                             BookingId = 17,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 72
+                            SeatId = 104
                         },
                         new
                         {
-                            Id = 64,
+                            Id = 46,
                             BookingId = 18,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            SeatId = 725
+                            SeatId = 231
+                        },
+                        new
+                        {
+                            Id = 47,
+                            BookingId = 18,
+                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsDeleted = false,
+                            LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            SeatId = 230
+                        },
+                        new
+                        {
+                            Id = 48,
+                            BookingId = 18,
+                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsDeleted = false,
+                            LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            SeatId = 226
                         });
                 });
 
@@ -953,7 +809,7 @@ namespace BookMyShow_Clone.Migrations
 
                     b.HasIndex("MovieId");
 
-                    b.ToTable("CityMovieMapping");
+                    b.ToTable("CityMovieMappings");
 
                     b.HasData(
                         new
@@ -963,7 +819,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 5
+                            MovieId = 9
                         },
                         new
                         {
@@ -972,16 +828,16 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 4
+                            MovieId = 10
                         },
                         new
                         {
                             Id = 3,
-                            CityId = 2,
+                            CityId = 1,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 2
+                            MovieId = 4
                         },
                         new
                         {
@@ -995,16 +851,16 @@ namespace BookMyShow_Clone.Migrations
                         new
                         {
                             Id = 5,
-                            CityId = 3,
+                            CityId = 2,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 2
+                            MovieId = 4
                         },
                         new
                         {
                             Id = 6,
-                            CityId = 3,
+                            CityId = 2,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
@@ -1013,11 +869,11 @@ namespace BookMyShow_Clone.Migrations
                         new
                         {
                             Id = 7,
-                            CityId = 3,
+                            CityId = 2,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 4
+                            MovieId = 7
                         },
                         new
                         {
@@ -1026,16 +882,16 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 9
+                            MovieId = 10
                         },
                         new
                         {
                             Id = 9,
-                            CityId = 4,
+                            CityId = 3,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 8
+                            MovieId = 6
                         },
                         new
                         {
@@ -1044,7 +900,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 5
+                            MovieId = 4
                         },
                         new
                         {
@@ -1053,7 +909,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 7
+                            MovieId = 5
                         },
                         new
                         {
@@ -1062,7 +918,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 3
+                            MovieId = 8
                         },
                         new
                         {
@@ -1071,7 +927,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 2
+                            MovieId = 7
                         },
                         new
                         {
@@ -1080,7 +936,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 4
+                            MovieId = 8
                         },
                         new
                         {
@@ -1090,7 +946,41 @@ namespace BookMyShow_Clone.Migrations
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             MovieId = 5
+                        },
+                        new
+                        {
+                            Id = 16,
+                            CityId = 5,
+                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsDeleted = false,
+                            LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            MovieId = 6
                         });
+                });
+
+            modelBuilder.Entity("BookMyShow_Clone.Models.EntityAudit", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("AuditMessage")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("SaveChangesAuditId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("State")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("SaveChangesAuditId");
+
+                    b.ToTable("EntityAudits");
                 });
 
             modelBuilder.Entity("BookMyShow_Clone.Models.Movie", b =>
@@ -1138,111 +1028,111 @@ namespace BookMyShow_Clone.Migrations
                         {
                             Id = 1,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            DurationInSeconds = 103,
+                            DurationInSeconds = 118,
                             IsDeleted = false,
                             IsShowingNow = true,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Movie A",
-                            ReleaseDate = new DateTime(2024, 12, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            ReleaseDate = new DateTime(2024, 11, 26, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 2,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            DurationInSeconds = 149,
+                            DurationInSeconds = 107,
                             IsDeleted = false,
-                            IsShowingNow = false,
+                            IsShowingNow = true,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Movie B",
-                            ReleaseDate = new DateTime(2024, 8, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            ReleaseDate = new DateTime(2024, 7, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 3,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            DurationInSeconds = 115,
+                            DurationInSeconds = 117,
                             IsDeleted = false,
                             IsShowingNow = true,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Movie C",
-                            ReleaseDate = new DateTime(2024, 6, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            ReleaseDate = new DateTime(2024, 4, 14, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 4,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            DurationInSeconds = 134,
+                            DurationInSeconds = 131,
                             IsDeleted = false,
-                            IsShowingNow = true,
+                            IsShowingNow = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Movie D",
-                            ReleaseDate = new DateTime(2024, 8, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            ReleaseDate = new DateTime(2024, 3, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 5,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            DurationInSeconds = 90,
+                            DurationInSeconds = 107,
                             IsDeleted = false,
-                            IsShowingNow = true,
+                            IsShowingNow = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Movie E",
-                            ReleaseDate = new DateTime(2024, 12, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            ReleaseDate = new DateTime(2024, 4, 22, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 6,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            DurationInSeconds = 123,
+                            DurationInSeconds = 97,
                             IsDeleted = false,
-                            IsShowingNow = true,
+                            IsShowingNow = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Movie F",
-                            ReleaseDate = new DateTime(2024, 12, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            ReleaseDate = new DateTime(2024, 2, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 7,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            DurationInSeconds = 96,
+                            DurationInSeconds = 131,
                             IsDeleted = false,
                             IsShowingNow = true,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Movie G",
-                            ReleaseDate = new DateTime(2024, 3, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            ReleaseDate = new DateTime(2024, 10, 26, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 8,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            DurationInSeconds = 93,
+                            DurationInSeconds = 109,
                             IsDeleted = false,
-                            IsShowingNow = true,
+                            IsShowingNow = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Movie H",
-                            ReleaseDate = new DateTime(2024, 12, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            ReleaseDate = new DateTime(2024, 9, 24, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 9,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            DurationInSeconds = 141,
+                            DurationInSeconds = 127,
                             IsDeleted = false,
                             IsShowingNow = true,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Movie I",
-                            ReleaseDate = new DateTime(2024, 1, 20, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            ReleaseDate = new DateTime(2024, 8, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 10,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            DurationInSeconds = 134,
+                            DurationInSeconds = 130,
                             IsDeleted = false,
-                            IsShowingNow = false,
+                            IsShowingNow = true,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Movie J",
-                            ReleaseDate = new DateTime(2024, 7, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            ReleaseDate = new DateTime(2024, 11, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         });
                 });
 
@@ -1290,7 +1180,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 10,
+                            MovieId = 1,
                             TheatreId = 1
                         },
                         new
@@ -1299,7 +1189,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 4,
+                            MovieId = 8,
                             TheatreId = 1
                         },
                         new
@@ -1308,7 +1198,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 8,
+                            MovieId = 2,
                             TheatreId = 1
                         },
                         new
@@ -1317,7 +1207,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 8,
+                            MovieId = 6,
                             TheatreId = 2
                         },
                         new
@@ -1326,7 +1216,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 6,
+                            MovieId = 4,
                             TheatreId = 2
                         },
                         new
@@ -1335,7 +1225,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 4,
+                            MovieId = 7,
                             TheatreId = 2
                         },
                         new
@@ -1344,7 +1234,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 9,
+                            MovieId = 8,
                             TheatreId = 3
                         },
                         new
@@ -1362,7 +1252,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 4,
+                            MovieId = 3,
                             TheatreId = 4
                         },
                         new
@@ -1371,7 +1261,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 2,
+                            MovieId = 5,
                             TheatreId = 4
                         },
                         new
@@ -1380,7 +1270,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 7,
+                            MovieId = 10,
                             TheatreId = 5
                         },
                         new
@@ -1398,8 +1288,8 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 1,
-                            TheatreId = 5
+                            MovieId = 10,
+                            TheatreId = 6
                         },
                         new
                         {
@@ -1407,7 +1297,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 1,
+                            MovieId = 3,
                             TheatreId = 6
                         },
                         new
@@ -1416,8 +1306,8 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 6,
-                            TheatreId = 6
+                            MovieId = 5,
+                            TheatreId = 7
                         },
                         new
                         {
@@ -1434,8 +1324,8 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 10,
-                            TheatreId = 7
+                            MovieId = 8,
+                            TheatreId = 8
                         },
                         new
                         {
@@ -1443,7 +1333,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 9,
+                            MovieId = 5,
                             TheatreId = 8
                         },
                         new
@@ -1453,7 +1343,7 @@ namespace BookMyShow_Clone.Migrations
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             MovieId = 4,
-                            TheatreId = 8
+                            TheatreId = 9
                         },
                         new
                         {
@@ -1461,8 +1351,8 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 5,
-                            TheatreId = 8
+                            MovieId = 8,
+                            TheatreId = 9
                         },
                         new
                         {
@@ -1470,8 +1360,8 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 10,
-                            TheatreId = 9
+                            MovieId = 2,
+                            TheatreId = 10
                         },
                         new
                         {
@@ -1479,8 +1369,8 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 1,
-                            TheatreId = 9
+                            MovieId = 5,
+                            TheatreId = 10
                         },
                         new
                         {
@@ -1488,8 +1378,8 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 7,
-                            TheatreId = 10
+                            MovieId = 9,
+                            TheatreId = 11
                         },
                         new
                         {
@@ -1497,8 +1387,8 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 6,
-                            TheatreId = 10
+                            MovieId = 4,
+                            TheatreId = 11
                         },
                         new
                         {
@@ -1506,7 +1396,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 7,
+                            MovieId = 6,
                             TheatreId = 11
                         },
                         new
@@ -1515,8 +1405,8 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 10,
-                            TheatreId = 11
+                            MovieId = 2,
+                            TheatreId = 12
                         },
                         new
                         {
@@ -1524,7 +1414,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 1,
+                            MovieId = 4,
                             TheatreId = 12
                         },
                         new
@@ -1533,7 +1423,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 2,
+                            MovieId = 6,
                             TheatreId = 12
                         },
                         new
@@ -1542,8 +1432,8 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 3,
-                            TheatreId = 12
+                            MovieId = 10,
+                            TheatreId = 13
                         },
                         new
                         {
@@ -1560,7 +1450,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 5,
+                            MovieId = 1,
                             TheatreId = 13
                         },
                         new
@@ -1569,21 +1459,12 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 1,
-                            TheatreId = 13
-                        },
-                        new
-                        {
-                            Id = 33,
-                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IsDeleted = false,
-                            LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 4,
+                            MovieId = 10,
                             TheatreId = 14
                         },
                         new
                         {
-                            Id = 34,
+                            Id = 33,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
@@ -1592,16 +1473,16 @@ namespace BookMyShow_Clone.Migrations
                         },
                         new
                         {
-                            Id = 35,
+                            Id = 34,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 9,
-                            TheatreId = 15
+                            MovieId = 8,
+                            TheatreId = 14
                         },
                         new
                         {
-                            Id = 36,
+                            Id = 35,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
@@ -1610,13 +1491,42 @@ namespace BookMyShow_Clone.Migrations
                         },
                         new
                         {
-                            Id = 37,
+                            Id = 36,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 8,
+                            MovieId = 9,
                             TheatreId = 15
                         });
+                });
+
+            modelBuilder.Entity("BookMyShow_Clone.Models.SaveChangesAudit", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<Guid>("AuditId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("EndTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ErrorMessage")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("StartTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("Succeeded")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("SaveChangesAudits");
                 });
 
             modelBuilder.Entity("BookMyShow_Clone.Models.Screen", b =>
@@ -1663,7 +1573,7 @@ namespace BookMyShow_Clone.Migrations
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Screen 1",
-                            TheatreId = 15
+                            TheatreId = 9
                         },
                         new
                         {
@@ -1672,7 +1582,7 @@ namespace BookMyShow_Clone.Migrations
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Screen 2",
-                            TheatreId = 1
+                            TheatreId = 10
                         },
                         new
                         {
@@ -1681,7 +1591,7 @@ namespace BookMyShow_Clone.Migrations
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Screen 3",
-                            TheatreId = 11
+                            TheatreId = 1
                         },
                         new
                         {
@@ -1690,7 +1600,7 @@ namespace BookMyShow_Clone.Migrations
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Screen 4",
-                            TheatreId = 1
+                            TheatreId = 9
                         },
                         new
                         {
@@ -1699,7 +1609,7 @@ namespace BookMyShow_Clone.Migrations
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Screen 5",
-                            TheatreId = 3
+                            TheatreId = 14
                         },
                         new
                         {
@@ -1708,7 +1618,7 @@ namespace BookMyShow_Clone.Migrations
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Screen 6",
-                            TheatreId = 15
+                            TheatreId = 3
                         },
                         new
                         {
@@ -1717,7 +1627,7 @@ namespace BookMyShow_Clone.Migrations
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Screen 7",
-                            TheatreId = 11
+                            TheatreId = 6
                         },
                         new
                         {
@@ -1726,7 +1636,7 @@ namespace BookMyShow_Clone.Migrations
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Screen 8",
-                            TheatreId = 3
+                            TheatreId = 4
                         },
                         new
                         {
@@ -1735,7 +1645,7 @@ namespace BookMyShow_Clone.Migrations
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Screen 9",
-                            TheatreId = 9
+                            TheatreId = 6
                         },
                         new
                         {
@@ -1744,7 +1654,7 @@ namespace BookMyShow_Clone.Migrations
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Screen 10",
-                            TheatreId = 13
+                            TheatreId = 2
                         },
                         new
                         {
@@ -1753,7 +1663,7 @@ namespace BookMyShow_Clone.Migrations
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Screen 11",
-                            TheatreId = 12
+                            TheatreId = 6
                         },
                         new
                         {
@@ -1762,7 +1672,7 @@ namespace BookMyShow_Clone.Migrations
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Screen 12",
-                            TheatreId = 2
+                            TheatreId = 8
                         },
                         new
                         {
@@ -1771,7 +1681,7 @@ namespace BookMyShow_Clone.Migrations
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Screen 13",
-                            TheatreId = 15
+                            TheatreId = 11
                         },
                         new
                         {
@@ -1789,7 +1699,7 @@ namespace BookMyShow_Clone.Migrations
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Screen 15",
-                            TheatreId = 3
+                            TheatreId = 2
                         },
                         new
                         {
@@ -1798,7 +1708,7 @@ namespace BookMyShow_Clone.Migrations
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Screen 16",
-                            TheatreId = 6
+                            TheatreId = 3
                         },
                         new
                         {
@@ -1807,7 +1717,7 @@ namespace BookMyShow_Clone.Migrations
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Screen 17",
-                            TheatreId = 10
+                            TheatreId = 13
                         },
                         new
                         {
@@ -1816,7 +1726,7 @@ namespace BookMyShow_Clone.Migrations
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Screen 18",
-                            TheatreId = 9
+                            TheatreId = 15
                         },
                         new
                         {
@@ -1825,7 +1735,7 @@ namespace BookMyShow_Clone.Migrations
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Screen 19",
-                            TheatreId = 9
+                            TheatreId = 5
                         },
                         new
                         {
@@ -1834,7 +1744,7 @@ namespace BookMyShow_Clone.Migrations
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Screen 20",
-                            TheatreId = 8
+                            TheatreId = 11
                         },
                         new
                         {
@@ -1843,7 +1753,7 @@ namespace BookMyShow_Clone.Migrations
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Screen 21",
-                            TheatreId = 5
+                            TheatreId = 6
                         },
                         new
                         {
@@ -1861,7 +1771,7 @@ namespace BookMyShow_Clone.Migrations
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Screen 23",
-                            TheatreId = 6
+                            TheatreId = 1
                         },
                         new
                         {
@@ -1870,7 +1780,7 @@ namespace BookMyShow_Clone.Migrations
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Screen 24",
-                            TheatreId = 12
+                            TheatreId = 11
                         },
                         new
                         {
@@ -1888,7 +1798,7 @@ namespace BookMyShow_Clone.Migrations
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Screen 26",
-                            TheatreId = 1
+                            TheatreId = 8
                         },
                         new
                         {
@@ -1897,7 +1807,7 @@ namespace BookMyShow_Clone.Migrations
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Screen 27",
-                            TheatreId = 13
+                            TheatreId = 1
                         },
                         new
                         {
@@ -1906,7 +1816,7 @@ namespace BookMyShow_Clone.Migrations
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Screen 28",
-                            TheatreId = 6
+                            TheatreId = 11
                         },
                         new
                         {
@@ -1915,7 +1825,7 @@ namespace BookMyShow_Clone.Migrations
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Screen 29",
-                            TheatreId = 2
+                            TheatreId = 14
                         },
                         new
                         {
@@ -1924,7 +1834,7 @@ namespace BookMyShow_Clone.Migrations
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Screen 30",
-                            TheatreId = 13
+                            TheatreId = 14
                         });
                 });
 
@@ -9516,7 +9426,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 9,
+                            MovieId = 3,
                             ScreenId = 1,
                             Timing = new DateTime(2024, 11, 1, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9526,7 +9436,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 6,
+                            MovieId = 7,
                             ScreenId = 1,
                             Timing = new DateTime(2024, 11, 1, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9536,7 +9446,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 3,
+                            MovieId = 4,
                             ScreenId = 1,
                             Timing = new DateTime(2024, 11, 1, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9546,7 +9456,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 6,
+                            MovieId = 3,
                             ScreenId = 1,
                             Timing = new DateTime(2024, 11, 2, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9566,7 +9476,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 9,
+                            MovieId = 1,
                             ScreenId = 1,
                             Timing = new DateTime(2024, 11, 2, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9576,7 +9486,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 1,
+                            MovieId = 5,
                             ScreenId = 1,
                             Timing = new DateTime(2024, 11, 3, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9586,7 +9496,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 3,
+                            MovieId = 9,
                             ScreenId = 1,
                             Timing = new DateTime(2024, 11, 3, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9596,7 +9506,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 6,
+                            MovieId = 9,
                             ScreenId = 1,
                             Timing = new DateTime(2024, 11, 3, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9606,7 +9516,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 4,
+                            MovieId = 2,
                             ScreenId = 2,
                             Timing = new DateTime(2024, 11, 1, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9616,7 +9526,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 2,
+                            MovieId = 5,
                             ScreenId = 2,
                             Timing = new DateTime(2024, 11, 1, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9626,7 +9536,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 7,
+                            MovieId = 1,
                             ScreenId = 2,
                             Timing = new DateTime(2024, 11, 1, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9636,7 +9546,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 4,
+                            MovieId = 3,
                             ScreenId = 2,
                             Timing = new DateTime(2024, 11, 2, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9646,7 +9556,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 8,
+                            MovieId = 5,
                             ScreenId = 2,
                             Timing = new DateTime(2024, 11, 2, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9656,7 +9566,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 4,
+                            MovieId = 2,
                             ScreenId = 2,
                             Timing = new DateTime(2024, 11, 2, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9666,7 +9576,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 1,
+                            MovieId = 6,
                             ScreenId = 2,
                             Timing = new DateTime(2024, 11, 3, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9676,7 +9586,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 2,
+                            MovieId = 8,
                             ScreenId = 2,
                             Timing = new DateTime(2024, 11, 3, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9686,7 +9596,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 9,
+                            MovieId = 5,
                             ScreenId = 2,
                             Timing = new DateTime(2024, 11, 3, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9696,7 +9606,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 6,
+                            MovieId = 1,
                             ScreenId = 3,
                             Timing = new DateTime(2024, 11, 1, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9706,7 +9616,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 9,
+                            MovieId = 10,
                             ScreenId = 3,
                             Timing = new DateTime(2024, 11, 1, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9716,7 +9626,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 8,
+                            MovieId = 1,
                             ScreenId = 3,
                             Timing = new DateTime(2024, 11, 1, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9726,7 +9636,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 6,
+                            MovieId = 3,
                             ScreenId = 3,
                             Timing = new DateTime(2024, 11, 2, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9736,7 +9646,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 2,
+                            MovieId = 8,
                             ScreenId = 3,
                             Timing = new DateTime(2024, 11, 2, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9746,7 +9656,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 7,
+                            MovieId = 10,
                             ScreenId = 3,
                             Timing = new DateTime(2024, 11, 2, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9756,7 +9666,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 10,
+                            MovieId = 6,
                             ScreenId = 3,
                             Timing = new DateTime(2024, 11, 3, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9766,7 +9676,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 10,
+                            MovieId = 2,
                             ScreenId = 3,
                             Timing = new DateTime(2024, 11, 3, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9776,7 +9686,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 8,
+                            MovieId = 4,
                             ScreenId = 3,
                             Timing = new DateTime(2024, 11, 3, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9786,7 +9696,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 6,
+                            MovieId = 5,
                             ScreenId = 4,
                             Timing = new DateTime(2024, 11, 1, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9796,7 +9706,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 10,
+                            MovieId = 8,
                             ScreenId = 4,
                             Timing = new DateTime(2024, 11, 1, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9816,7 +9726,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 4,
+                            MovieId = 10,
                             ScreenId = 4,
                             Timing = new DateTime(2024, 11, 2, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9826,7 +9736,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 6,
+                            MovieId = 9,
                             ScreenId = 4,
                             Timing = new DateTime(2024, 11, 2, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9836,7 +9746,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 8,
+                            MovieId = 3,
                             ScreenId = 4,
                             Timing = new DateTime(2024, 11, 2, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9846,7 +9756,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 10,
+                            MovieId = 6,
                             ScreenId = 4,
                             Timing = new DateTime(2024, 11, 3, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9856,7 +9766,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 8,
+                            MovieId = 9,
                             ScreenId = 4,
                             Timing = new DateTime(2024, 11, 3, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9866,7 +9776,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 4,
+                            MovieId = 8,
                             ScreenId = 4,
                             Timing = new DateTime(2024, 11, 3, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9876,7 +9786,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 4,
+                            MovieId = 3,
                             ScreenId = 5,
                             Timing = new DateTime(2024, 11, 1, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9886,7 +9796,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 7,
+                            MovieId = 2,
                             ScreenId = 5,
                             Timing = new DateTime(2024, 11, 1, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9896,7 +9806,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 8,
+                            MovieId = 3,
                             ScreenId = 5,
                             Timing = new DateTime(2024, 11, 1, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9906,7 +9816,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 2,
+                            MovieId = 8,
                             ScreenId = 5,
                             Timing = new DateTime(2024, 11, 2, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9916,7 +9826,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 2,
+                            MovieId = 10,
                             ScreenId = 5,
                             Timing = new DateTime(2024, 11, 2, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9926,7 +9836,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 3,
+                            MovieId = 6,
                             ScreenId = 5,
                             Timing = new DateTime(2024, 11, 2, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9936,7 +9846,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 6,
+                            MovieId = 2,
                             ScreenId = 5,
                             Timing = new DateTime(2024, 11, 3, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9946,7 +9856,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 3,
+                            MovieId = 2,
                             ScreenId = 5,
                             Timing = new DateTime(2024, 11, 3, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9956,7 +9866,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 9,
+                            MovieId = 5,
                             ScreenId = 5,
                             Timing = new DateTime(2024, 11, 3, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9966,7 +9876,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 7,
+                            MovieId = 1,
                             ScreenId = 6,
                             Timing = new DateTime(2024, 11, 1, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9976,7 +9886,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 9,
+                            MovieId = 7,
                             ScreenId = 6,
                             Timing = new DateTime(2024, 11, 1, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9986,7 +9896,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 1,
+                            MovieId = 3,
                             ScreenId = 6,
                             Timing = new DateTime(2024, 11, 1, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -9996,7 +9906,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 4,
+                            MovieId = 6,
                             ScreenId = 6,
                             Timing = new DateTime(2024, 11, 2, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10006,7 +9916,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 7,
+                            MovieId = 6,
                             ScreenId = 6,
                             Timing = new DateTime(2024, 11, 2, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10016,7 +9926,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 4,
+                            MovieId = 10,
                             ScreenId = 6,
                             Timing = new DateTime(2024, 11, 2, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10026,7 +9936,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 8,
+                            MovieId = 6,
                             ScreenId = 6,
                             Timing = new DateTime(2024, 11, 3, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10036,7 +9946,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 8,
+                            MovieId = 2,
                             ScreenId = 6,
                             Timing = new DateTime(2024, 11, 3, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10046,7 +9956,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 1,
+                            MovieId = 8,
                             ScreenId = 6,
                             Timing = new DateTime(2024, 11, 3, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10056,7 +9966,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 5,
+                            MovieId = 7,
                             ScreenId = 7,
                             Timing = new DateTime(2024, 11, 1, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10066,7 +9976,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 9,
+                            MovieId = 5,
                             ScreenId = 7,
                             Timing = new DateTime(2024, 11, 1, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10076,7 +9986,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 9,
+                            MovieId = 4,
                             ScreenId = 7,
                             Timing = new DateTime(2024, 11, 1, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10086,7 +9996,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 2,
+                            MovieId = 9,
                             ScreenId = 7,
                             Timing = new DateTime(2024, 11, 2, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10096,7 +10006,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 10,
+                            MovieId = 9,
                             ScreenId = 7,
                             Timing = new DateTime(2024, 11, 2, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10106,7 +10016,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 9,
+                            MovieId = 1,
                             ScreenId = 7,
                             Timing = new DateTime(2024, 11, 2, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10116,7 +10026,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 7,
+                            MovieId = 2,
                             ScreenId = 7,
                             Timing = new DateTime(2024, 11, 3, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10126,7 +10036,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 6,
+                            MovieId = 1,
                             ScreenId = 7,
                             Timing = new DateTime(2024, 11, 3, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10146,7 +10056,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 9,
+                            MovieId = 5,
                             ScreenId = 8,
                             Timing = new DateTime(2024, 11, 1, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10156,7 +10066,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 1,
+                            MovieId = 8,
                             ScreenId = 8,
                             Timing = new DateTime(2024, 11, 1, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10166,7 +10076,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 1,
+                            MovieId = 6,
                             ScreenId = 8,
                             Timing = new DateTime(2024, 11, 1, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10176,7 +10086,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 10,
+                            MovieId = 4,
                             ScreenId = 8,
                             Timing = new DateTime(2024, 11, 2, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10206,7 +10116,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 7,
+                            MovieId = 9,
                             ScreenId = 8,
                             Timing = new DateTime(2024, 11, 3, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10216,7 +10126,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 8,
+                            MovieId = 5,
                             ScreenId = 8,
                             Timing = new DateTime(2024, 11, 3, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10226,7 +10136,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 7,
+                            MovieId = 5,
                             ScreenId = 8,
                             Timing = new DateTime(2024, 11, 3, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10236,7 +10146,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 9,
+                            MovieId = 2,
                             ScreenId = 9,
                             Timing = new DateTime(2024, 11, 1, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10246,7 +10156,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 9,
+                            MovieId = 5,
                             ScreenId = 9,
                             Timing = new DateTime(2024, 11, 1, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10256,7 +10166,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 3,
+                            MovieId = 1,
                             ScreenId = 9,
                             Timing = new DateTime(2024, 11, 1, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10266,7 +10176,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 5,
+                            MovieId = 2,
                             ScreenId = 9,
                             Timing = new DateTime(2024, 11, 2, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10276,7 +10186,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 3,
+                            MovieId = 9,
                             ScreenId = 9,
                             Timing = new DateTime(2024, 11, 2, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10296,7 +10206,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 2,
+                            MovieId = 5,
                             ScreenId = 9,
                             Timing = new DateTime(2024, 11, 3, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10316,7 +10226,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 5,
+                            MovieId = 1,
                             ScreenId = 9,
                             Timing = new DateTime(2024, 11, 3, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10326,7 +10236,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 6,
+                            MovieId = 9,
                             ScreenId = 10,
                             Timing = new DateTime(2024, 11, 1, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10336,7 +10246,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 5,
+                            MovieId = 2,
                             ScreenId = 10,
                             Timing = new DateTime(2024, 11, 1, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10346,7 +10256,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 10,
+                            MovieId = 4,
                             ScreenId = 10,
                             Timing = new DateTime(2024, 11, 1, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10356,7 +10266,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 5,
+                            MovieId = 7,
                             ScreenId = 10,
                             Timing = new DateTime(2024, 11, 2, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10366,7 +10276,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 4,
+                            MovieId = 6,
                             ScreenId = 10,
                             Timing = new DateTime(2024, 11, 2, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10376,7 +10286,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 9,
+                            MovieId = 8,
                             ScreenId = 10,
                             Timing = new DateTime(2024, 11, 2, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10386,7 +10296,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 1,
+                            MovieId = 2,
                             ScreenId = 10,
                             Timing = new DateTime(2024, 11, 3, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10396,7 +10306,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 4,
+                            MovieId = 7,
                             ScreenId = 10,
                             Timing = new DateTime(2024, 11, 3, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10406,7 +10316,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 2,
+                            MovieId = 5,
                             ScreenId = 10,
                             Timing = new DateTime(2024, 11, 3, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10416,7 +10326,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 2,
+                            MovieId = 3,
                             ScreenId = 11,
                             Timing = new DateTime(2024, 11, 1, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10426,7 +10336,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 9,
+                            MovieId = 5,
                             ScreenId = 11,
                             Timing = new DateTime(2024, 11, 1, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10436,7 +10346,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 1,
+                            MovieId = 6,
                             ScreenId = 11,
                             Timing = new DateTime(2024, 11, 1, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10446,7 +10356,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 4,
+                            MovieId = 3,
                             ScreenId = 11,
                             Timing = new DateTime(2024, 11, 2, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10456,7 +10366,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 3,
+                            MovieId = 1,
                             ScreenId = 11,
                             Timing = new DateTime(2024, 11, 2, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10466,7 +10376,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 8,
+                            MovieId = 2,
                             ScreenId = 11,
                             Timing = new DateTime(2024, 11, 2, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10476,7 +10386,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 10,
+                            MovieId = 2,
                             ScreenId = 11,
                             Timing = new DateTime(2024, 11, 3, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10486,7 +10396,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 8,
+                            MovieId = 6,
                             ScreenId = 11,
                             Timing = new DateTime(2024, 11, 3, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10496,7 +10406,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 8,
+                            MovieId = 10,
                             ScreenId = 11,
                             Timing = new DateTime(2024, 11, 3, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10506,7 +10416,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 3,
+                            MovieId = 6,
                             ScreenId = 12,
                             Timing = new DateTime(2024, 11, 1, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10526,7 +10436,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 5,
+                            MovieId = 4,
                             ScreenId = 12,
                             Timing = new DateTime(2024, 11, 1, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10536,7 +10446,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 6,
+                            MovieId = 3,
                             ScreenId = 12,
                             Timing = new DateTime(2024, 11, 2, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10546,7 +10456,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 3,
+                            MovieId = 5,
                             ScreenId = 12,
                             Timing = new DateTime(2024, 11, 2, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10556,7 +10466,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 9,
+                            MovieId = 4,
                             ScreenId = 12,
                             Timing = new DateTime(2024, 11, 2, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10566,7 +10476,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 9,
+                            MovieId = 8,
                             ScreenId = 12,
                             Timing = new DateTime(2024, 11, 3, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10586,7 +10496,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 3,
+                            MovieId = 7,
                             ScreenId = 12,
                             Timing = new DateTime(2024, 11, 3, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10596,7 +10506,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 6,
+                            MovieId = 8,
                             ScreenId = 13,
                             Timing = new DateTime(2024, 11, 1, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10606,7 +10516,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 9,
+                            MovieId = 3,
                             ScreenId = 13,
                             Timing = new DateTime(2024, 11, 1, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10616,7 +10526,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 8,
+                            MovieId = 2,
                             ScreenId = 13,
                             Timing = new DateTime(2024, 11, 1, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10626,7 +10536,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 2,
+                            MovieId = 8,
                             ScreenId = 13,
                             Timing = new DateTime(2024, 11, 2, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10636,7 +10546,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 10,
+                            MovieId = 5,
                             ScreenId = 13,
                             Timing = new DateTime(2024, 11, 2, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10646,7 +10556,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 7,
+                            MovieId = 5,
                             ScreenId = 13,
                             Timing = new DateTime(2024, 11, 2, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10666,7 +10576,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 7,
+                            MovieId = 5,
                             ScreenId = 13,
                             Timing = new DateTime(2024, 11, 3, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10676,7 +10586,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 5,
+                            MovieId = 2,
                             ScreenId = 13,
                             Timing = new DateTime(2024, 11, 3, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10686,7 +10596,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 5,
+                            MovieId = 7,
                             ScreenId = 14,
                             Timing = new DateTime(2024, 11, 1, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10696,7 +10606,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 9,
+                            MovieId = 5,
                             ScreenId = 14,
                             Timing = new DateTime(2024, 11, 1, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10716,7 +10626,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 8,
+                            MovieId = 2,
                             ScreenId = 14,
                             Timing = new DateTime(2024, 11, 2, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10726,7 +10636,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 7,
+                            MovieId = 2,
                             ScreenId = 14,
                             Timing = new DateTime(2024, 11, 2, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10736,7 +10646,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 9,
+                            MovieId = 5,
                             ScreenId = 14,
                             Timing = new DateTime(2024, 11, 2, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10746,7 +10656,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 7,
+                            MovieId = 9,
                             ScreenId = 14,
                             Timing = new DateTime(2024, 11, 3, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10766,7 +10676,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 5,
+                            MovieId = 6,
                             ScreenId = 14,
                             Timing = new DateTime(2024, 11, 3, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10786,7 +10696,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 1,
+                            MovieId = 2,
                             ScreenId = 15,
                             Timing = new DateTime(2024, 11, 1, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10796,7 +10706,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 1,
+                            MovieId = 6,
                             ScreenId = 15,
                             Timing = new DateTime(2024, 11, 1, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10806,7 +10716,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 6,
+                            MovieId = 5,
                             ScreenId = 15,
                             Timing = new DateTime(2024, 11, 2, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10816,7 +10726,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 10,
+                            MovieId = 1,
                             ScreenId = 15,
                             Timing = new DateTime(2024, 11, 2, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10826,7 +10736,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 1,
+                            MovieId = 9,
                             ScreenId = 15,
                             Timing = new DateTime(2024, 11, 2, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10836,7 +10746,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 8,
+                            MovieId = 1,
                             ScreenId = 15,
                             Timing = new DateTime(2024, 11, 3, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10846,7 +10756,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 9,
+                            MovieId = 6,
                             ScreenId = 15,
                             Timing = new DateTime(2024, 11, 3, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10856,7 +10766,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 3,
+                            MovieId = 6,
                             ScreenId = 15,
                             Timing = new DateTime(2024, 11, 3, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10866,7 +10776,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 2,
+                            MovieId = 7,
                             ScreenId = 16,
                             Timing = new DateTime(2024, 11, 1, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10886,7 +10796,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 4,
+                            MovieId = 7,
                             ScreenId = 16,
                             Timing = new DateTime(2024, 11, 1, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10906,7 +10816,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 7,
+                            MovieId = 4,
                             ScreenId = 16,
                             Timing = new DateTime(2024, 11, 2, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10916,7 +10826,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 6,
+                            MovieId = 5,
                             ScreenId = 16,
                             Timing = new DateTime(2024, 11, 2, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10926,7 +10836,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 1,
+                            MovieId = 4,
                             ScreenId = 16,
                             Timing = new DateTime(2024, 11, 3, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10936,7 +10846,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 3,
+                            MovieId = 5,
                             ScreenId = 16,
                             Timing = new DateTime(2024, 11, 3, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10946,7 +10856,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 9,
+                            MovieId = 5,
                             ScreenId = 16,
                             Timing = new DateTime(2024, 11, 3, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10956,7 +10866,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 2,
+                            MovieId = 9,
                             ScreenId = 17,
                             Timing = new DateTime(2024, 11, 1, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10966,7 +10876,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 7,
+                            MovieId = 6,
                             ScreenId = 17,
                             Timing = new DateTime(2024, 11, 1, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10976,7 +10886,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 9,
+                            MovieId = 8,
                             ScreenId = 17,
                             Timing = new DateTime(2024, 11, 1, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10986,7 +10896,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 5,
+                            MovieId = 10,
                             ScreenId = 17,
                             Timing = new DateTime(2024, 11, 2, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -10996,7 +10906,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 10,
+                            MovieId = 4,
                             ScreenId = 17,
                             Timing = new DateTime(2024, 11, 2, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11006,7 +10916,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 1,
+                            MovieId = 4,
                             ScreenId = 17,
                             Timing = new DateTime(2024, 11, 2, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11016,7 +10926,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 5,
+                            MovieId = 6,
                             ScreenId = 17,
                             Timing = new DateTime(2024, 11, 3, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11026,7 +10936,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 8,
+                            MovieId = 5,
                             ScreenId = 17,
                             Timing = new DateTime(2024, 11, 3, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11036,7 +10946,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 1,
+                            MovieId = 3,
                             ScreenId = 17,
                             Timing = new DateTime(2024, 11, 3, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11046,7 +10956,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 6,
+                            MovieId = 7,
                             ScreenId = 18,
                             Timing = new DateTime(2024, 11, 1, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11056,7 +10966,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 5,
+                            MovieId = 6,
                             ScreenId = 18,
                             Timing = new DateTime(2024, 11, 1, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11066,7 +10976,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 7,
+                            MovieId = 3,
                             ScreenId = 18,
                             Timing = new DateTime(2024, 11, 1, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11076,7 +10986,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 3,
+                            MovieId = 1,
                             ScreenId = 18,
                             Timing = new DateTime(2024, 11, 2, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11086,7 +10996,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 3,
+                            MovieId = 7,
                             ScreenId = 18,
                             Timing = new DateTime(2024, 11, 2, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11096,7 +11006,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 9,
+                            MovieId = 6,
                             ScreenId = 18,
                             Timing = new DateTime(2024, 11, 2, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11106,7 +11016,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 10,
+                            MovieId = 8,
                             ScreenId = 18,
                             Timing = new DateTime(2024, 11, 3, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11116,7 +11026,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 8,
+                            MovieId = 9,
                             ScreenId = 18,
                             Timing = new DateTime(2024, 11, 3, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11126,7 +11036,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 1,
+                            MovieId = 9,
                             ScreenId = 18,
                             Timing = new DateTime(2024, 11, 3, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11136,7 +11046,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 4,
+                            MovieId = 7,
                             ScreenId = 19,
                             Timing = new DateTime(2024, 11, 1, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11146,7 +11056,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 1,
+                            MovieId = 9,
                             ScreenId = 19,
                             Timing = new DateTime(2024, 11, 1, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11176,7 +11086,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 5,
+                            MovieId = 3,
                             ScreenId = 19,
                             Timing = new DateTime(2024, 11, 2, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11196,7 +11106,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 7,
+                            MovieId = 2,
                             ScreenId = 19,
                             Timing = new DateTime(2024, 11, 3, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11206,7 +11116,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 8,
+                            MovieId = 4,
                             ScreenId = 19,
                             Timing = new DateTime(2024, 11, 3, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11216,7 +11126,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 2,
+                            MovieId = 10,
                             ScreenId = 19,
                             Timing = new DateTime(2024, 11, 3, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11226,7 +11136,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 3,
+                            MovieId = 4,
                             ScreenId = 20,
                             Timing = new DateTime(2024, 11, 1, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11236,7 +11146,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 2,
+                            MovieId = 8,
                             ScreenId = 20,
                             Timing = new DateTime(2024, 11, 1, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11246,7 +11156,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 8,
+                            MovieId = 3,
                             ScreenId = 20,
                             Timing = new DateTime(2024, 11, 1, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11256,7 +11166,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 7,
+                            MovieId = 8,
                             ScreenId = 20,
                             Timing = new DateTime(2024, 11, 2, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11266,7 +11176,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 8,
+                            MovieId = 5,
                             ScreenId = 20,
                             Timing = new DateTime(2024, 11, 2, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11286,7 +11196,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 6,
+                            MovieId = 5,
                             ScreenId = 20,
                             Timing = new DateTime(2024, 11, 3, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11296,7 +11206,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 1,
+                            MovieId = 3,
                             ScreenId = 20,
                             Timing = new DateTime(2024, 11, 3, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11306,7 +11216,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 4,
+                            MovieId = 7,
                             ScreenId = 20,
                             Timing = new DateTime(2024, 11, 3, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11316,7 +11226,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 2,
+                            MovieId = 5,
                             ScreenId = 21,
                             Timing = new DateTime(2024, 11, 1, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11326,7 +11236,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 6,
+                            MovieId = 10,
                             ScreenId = 21,
                             Timing = new DateTime(2024, 11, 1, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11336,7 +11246,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 2,
+                            MovieId = 6,
                             ScreenId = 21,
                             Timing = new DateTime(2024, 11, 1, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11346,7 +11256,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 2,
+                            MovieId = 10,
                             ScreenId = 21,
                             Timing = new DateTime(2024, 11, 2, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11356,7 +11266,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 7,
+                            MovieId = 8,
                             ScreenId = 21,
                             Timing = new DateTime(2024, 11, 2, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11366,7 +11276,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 5,
+                            MovieId = 4,
                             ScreenId = 21,
                             Timing = new DateTime(2024, 11, 2, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11376,7 +11286,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 8,
+                            MovieId = 5,
                             ScreenId = 21,
                             Timing = new DateTime(2024, 11, 3, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11396,7 +11306,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 6,
+                            MovieId = 5,
                             ScreenId = 21,
                             Timing = new DateTime(2024, 11, 3, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11406,7 +11316,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 8,
+                            MovieId = 1,
                             ScreenId = 22,
                             Timing = new DateTime(2024, 11, 1, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11416,7 +11326,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 3,
+                            MovieId = 6,
                             ScreenId = 22,
                             Timing = new DateTime(2024, 11, 1, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11426,7 +11336,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 8,
+                            MovieId = 10,
                             ScreenId = 22,
                             Timing = new DateTime(2024, 11, 1, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11446,7 +11356,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 5,
+                            MovieId = 4,
                             ScreenId = 22,
                             Timing = new DateTime(2024, 11, 2, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11456,7 +11366,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 7,
+                            MovieId = 10,
                             ScreenId = 22,
                             Timing = new DateTime(2024, 11, 2, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11466,7 +11376,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 10,
+                            MovieId = 3,
                             ScreenId = 22,
                             Timing = new DateTime(2024, 11, 3, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11476,7 +11386,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 3,
+                            MovieId = 9,
                             ScreenId = 22,
                             Timing = new DateTime(2024, 11, 3, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11496,7 +11406,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 5,
+                            MovieId = 10,
                             ScreenId = 23,
                             Timing = new DateTime(2024, 11, 1, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11506,7 +11416,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 8,
+                            MovieId = 6,
                             ScreenId = 23,
                             Timing = new DateTime(2024, 11, 1, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11526,7 +11436,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 4,
+                            MovieId = 9,
                             ScreenId = 23,
                             Timing = new DateTime(2024, 11, 2, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11536,7 +11446,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 10,
+                            MovieId = 8,
                             ScreenId = 23,
                             Timing = new DateTime(2024, 11, 2, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11546,7 +11456,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 6,
+                            MovieId = 4,
                             ScreenId = 23,
                             Timing = new DateTime(2024, 11, 2, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11556,7 +11466,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 2,
+                            MovieId = 7,
                             ScreenId = 23,
                             Timing = new DateTime(2024, 11, 3, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11566,7 +11476,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 1,
+                            MovieId = 3,
                             ScreenId = 23,
                             Timing = new DateTime(2024, 11, 3, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11576,7 +11486,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 10,
+                            MovieId = 4,
                             ScreenId = 23,
                             Timing = new DateTime(2024, 11, 3, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11586,7 +11496,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 4,
+                            MovieId = 6,
                             ScreenId = 24,
                             Timing = new DateTime(2024, 11, 1, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11606,7 +11516,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 7,
+                            MovieId = 8,
                             ScreenId = 24,
                             Timing = new DateTime(2024, 11, 1, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11616,7 +11526,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 6,
+                            MovieId = 10,
                             ScreenId = 24,
                             Timing = new DateTime(2024, 11, 2, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11626,7 +11536,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 7,
+                            MovieId = 3,
                             ScreenId = 24,
                             Timing = new DateTime(2024, 11, 2, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11656,7 +11566,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 7,
+                            MovieId = 9,
                             ScreenId = 24,
                             Timing = new DateTime(2024, 11, 3, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11686,7 +11596,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 1,
+                            MovieId = 4,
                             ScreenId = 25,
                             Timing = new DateTime(2024, 11, 1, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11706,7 +11616,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 8,
+                            MovieId = 6,
                             ScreenId = 25,
                             Timing = new DateTime(2024, 11, 2, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11716,7 +11626,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 7,
+                            MovieId = 9,
                             ScreenId = 25,
                             Timing = new DateTime(2024, 11, 2, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11726,7 +11636,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 4,
+                            MovieId = 5,
                             ScreenId = 25,
                             Timing = new DateTime(2024, 11, 2, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11736,7 +11646,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 6,
+                            MovieId = 7,
                             ScreenId = 25,
                             Timing = new DateTime(2024, 11, 3, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11746,7 +11656,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 9,
+                            MovieId = 4,
                             ScreenId = 25,
                             Timing = new DateTime(2024, 11, 3, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11756,7 +11666,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 7,
+                            MovieId = 10,
                             ScreenId = 25,
                             Timing = new DateTime(2024, 11, 3, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11766,7 +11676,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 6,
+                            MovieId = 7,
                             ScreenId = 26,
                             Timing = new DateTime(2024, 11, 1, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11776,7 +11686,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 7,
+                            MovieId = 10,
                             ScreenId = 26,
                             Timing = new DateTime(2024, 11, 1, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11786,7 +11696,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 5,
+                            MovieId = 3,
                             ScreenId = 26,
                             Timing = new DateTime(2024, 11, 1, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11796,7 +11706,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 9,
+                            MovieId = 4,
                             ScreenId = 26,
                             Timing = new DateTime(2024, 11, 2, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11806,7 +11716,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 6,
+                            MovieId = 4,
                             ScreenId = 26,
                             Timing = new DateTime(2024, 11, 2, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11816,7 +11726,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 4,
+                            MovieId = 1,
                             ScreenId = 26,
                             Timing = new DateTime(2024, 11, 2, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11826,7 +11736,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 1,
+                            MovieId = 10,
                             ScreenId = 26,
                             Timing = new DateTime(2024, 11, 3, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11836,7 +11746,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 6,
+                            MovieId = 8,
                             ScreenId = 26,
                             Timing = new DateTime(2024, 11, 3, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11846,7 +11756,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 7,
+                            MovieId = 9,
                             ScreenId = 26,
                             Timing = new DateTime(2024, 11, 3, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11866,7 +11776,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 7,
+                            MovieId = 1,
                             ScreenId = 27,
                             Timing = new DateTime(2024, 11, 1, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11876,7 +11786,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 10,
+                            MovieId = 4,
                             ScreenId = 27,
                             Timing = new DateTime(2024, 11, 1, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11886,7 +11796,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 3,
+                            MovieId = 10,
                             ScreenId = 27,
                             Timing = new DateTime(2024, 11, 2, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11906,7 +11816,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 2,
+                            MovieId = 10,
                             ScreenId = 27,
                             Timing = new DateTime(2024, 11, 2, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11926,7 +11836,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 8,
+                            MovieId = 10,
                             ScreenId = 27,
                             Timing = new DateTime(2024, 11, 3, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11936,7 +11846,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 7,
+                            MovieId = 2,
                             ScreenId = 27,
                             Timing = new DateTime(2024, 11, 3, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11946,7 +11856,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 2,
+                            MovieId = 4,
                             ScreenId = 28,
                             Timing = new DateTime(2024, 11, 1, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11956,7 +11866,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 2,
+                            MovieId = 5,
                             ScreenId = 28,
                             Timing = new DateTime(2024, 11, 1, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11966,7 +11876,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 7,
+                            MovieId = 6,
                             ScreenId = 28,
                             Timing = new DateTime(2024, 11, 1, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11986,7 +11896,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 1,
+                            MovieId = 9,
                             ScreenId = 28,
                             Timing = new DateTime(2024, 11, 2, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -11996,7 +11906,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 2,
+                            MovieId = 4,
                             ScreenId = 28,
                             Timing = new DateTime(2024, 11, 2, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -12006,7 +11916,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 7,
+                            MovieId = 8,
                             ScreenId = 28,
                             Timing = new DateTime(2024, 11, 3, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -12016,7 +11926,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 5,
+                            MovieId = 10,
                             ScreenId = 28,
                             Timing = new DateTime(2024, 11, 3, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -12026,7 +11936,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 3,
+                            MovieId = 1,
                             ScreenId = 28,
                             Timing = new DateTime(2024, 11, 3, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -12036,7 +11946,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 1,
+                            MovieId = 6,
                             ScreenId = 29,
                             Timing = new DateTime(2024, 11, 1, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -12056,7 +11966,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 4,
+                            MovieId = 8,
                             ScreenId = 29,
                             Timing = new DateTime(2024, 11, 1, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -12066,7 +11976,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 1,
+                            MovieId = 10,
                             ScreenId = 29,
                             Timing = new DateTime(2024, 11, 2, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -12076,7 +11986,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 1,
+                            MovieId = 2,
                             ScreenId = 29,
                             Timing = new DateTime(2024, 11, 2, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -12086,7 +11996,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 1,
+                            MovieId = 8,
                             ScreenId = 29,
                             Timing = new DateTime(2024, 11, 2, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -12096,7 +12006,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 1,
+                            MovieId = 4,
                             ScreenId = 29,
                             Timing = new DateTime(2024, 11, 3, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -12106,7 +12016,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 9,
+                            MovieId = 8,
                             ScreenId = 29,
                             Timing = new DateTime(2024, 11, 3, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -12116,7 +12026,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 7,
+                            MovieId = 10,
                             ScreenId = 29,
                             Timing = new DateTime(2024, 11, 3, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -12126,7 +12036,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 4,
+                            MovieId = 6,
                             ScreenId = 30,
                             Timing = new DateTime(2024, 11, 1, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -12136,7 +12046,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 10,
+                            MovieId = 5,
                             ScreenId = 30,
                             Timing = new DateTime(2024, 11, 1, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -12146,7 +12056,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 3,
+                            MovieId = 1,
                             ScreenId = 30,
                             Timing = new DateTime(2024, 11, 1, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -12156,7 +12066,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 5,
+                            MovieId = 6,
                             ScreenId = 30,
                             Timing = new DateTime(2024, 11, 2, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -12166,7 +12076,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 10,
+                            MovieId = 5,
                             ScreenId = 30,
                             Timing = new DateTime(2024, 11, 2, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -12176,7 +12086,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 10,
+                            MovieId = 1,
                             ScreenId = 30,
                             Timing = new DateTime(2024, 11, 2, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -12186,7 +12096,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 9,
+                            MovieId = 4,
                             ScreenId = 30,
                             Timing = new DateTime(2024, 11, 3, 14, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -12196,7 +12106,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 9,
+                            MovieId = 3,
                             ScreenId = 30,
                             Timing = new DateTime(2024, 11, 3, 17, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -12206,7 +12116,7 @@ namespace BookMyShow_Clone.Migrations
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            MovieId = 8,
+                            MovieId = 5,
                             ScreenId = 30,
                             Timing = new DateTime(2024, 11, 3, 20, 0, 0, 0, DateTimeKind.Unspecified)
                         });
@@ -12256,7 +12166,7 @@ namespace BookMyShow_Clone.Migrations
                         new
                         {
                             Id = 1,
-                            CityId = 4,
+                            CityId = 3,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
@@ -12276,7 +12186,7 @@ namespace BookMyShow_Clone.Migrations
                         new
                         {
                             Id = 3,
-                            CityId = 1,
+                            CityId = 4,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
@@ -12286,7 +12196,7 @@ namespace BookMyShow_Clone.Migrations
                         new
                         {
                             Id = 4,
-                            CityId = 1,
+                            CityId = 3,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
@@ -12296,7 +12206,7 @@ namespace BookMyShow_Clone.Migrations
                         new
                         {
                             Id = 5,
-                            CityId = 5,
+                            CityId = 1,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
@@ -12316,7 +12226,7 @@ namespace BookMyShow_Clone.Migrations
                         new
                         {
                             Id = 7,
-                            CityId = 2,
+                            CityId = 3,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
@@ -12336,7 +12246,7 @@ namespace BookMyShow_Clone.Migrations
                         new
                         {
                             Id = 9,
-                            CityId = 4,
+                            CityId = 2,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
@@ -12346,7 +12256,7 @@ namespace BookMyShow_Clone.Migrations
                         new
                         {
                             Id = 10,
-                            CityId = 3,
+                            CityId = 5,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
@@ -12366,7 +12276,7 @@ namespace BookMyShow_Clone.Migrations
                         new
                         {
                             Id = 12,
-                            CityId = 2,
+                            CityId = 4,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
@@ -12386,7 +12296,7 @@ namespace BookMyShow_Clone.Migrations
                         new
                         {
                             Id = 14,
-                            CityId = 2,
+                            CityId = 3,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
@@ -12396,7 +12306,7 @@ namespace BookMyShow_Clone.Migrations
                         new
                         {
                             Id = 15,
-                            CityId = 3,
+                            CityId = 4,
                             DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             IsDeleted = false,
                             LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
@@ -12482,7 +12392,7 @@ namespace BookMyShow_Clone.Migrations
                         {
                             Id = "8e445865-a24d-4543-a6c6-9443d048cdb9",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "f97bd638-4587-43d8-ae69-8fb428f3e146",
+                            ConcurrencyStamp = "d111774e-3bbf-484c-9eb3-7763199ffa7e",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             FirstName = "System",
@@ -12490,9 +12400,9 @@ namespace BookMyShow_Clone.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@LOCALHOST.COM",
                             NormalizedUserName = "ADMIN@LOCALHOST.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEGD07KM6yfhR5gk7urPomRwUGrzNaBKkINHjRqrewl+AWhRYepqw8uZxlTE/KnciVQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEEqBS+dQTwfE5DYsFD9zCO82HFtRwYDyHroLAHaD6sZCWXAw4ReixIXTycePpSqqrQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "09452bca-76a4-4e56-8f9e-7990c4bd4f8c",
+                            SecurityStamp = "eec1e820-9f94-449e-baed-db14f804bca9",
                             TwoFactorEnabled = false,
                             UserName = "admin@localhost.com"
                         },
@@ -12500,7 +12410,7 @@ namespace BookMyShow_Clone.Migrations
                         {
                             Id = "9e224968-33e4-4652-b7b7-8574d048cdb9",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "452f6e90-7112-46a0-8816-930f6c400dda",
+                            ConcurrencyStamp = "d7ca51ae-7284-4e03-863c-bf6bda0375e1",
                             Email = "mayank@gmail.com",
                             EmailConfirmed = true,
                             FirstName = "Mayank",
@@ -12508,9 +12418,9 @@ namespace BookMyShow_Clone.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "MAYANK@GMAIL.COM",
                             NormalizedUserName = "MAYANK@GMAIL.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEDglBuQESm9ZBi0lgdTAAhrSJJJERCHYbIA88jNpHp/nTybGKzLE7KPerbiFjsRU0w==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEGC6anos5Ie/69jvMka2MrLYPiiv8+WuQwnA8wHA5fFF8QnHLqz/9ZkO9vEV/D5BkQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "3a6350f6-a1bb-4971-ba3a-391f5af3b961",
+                            SecurityStamp = "95844aca-42cf-4cfc-9848-057c66c1d0f5",
                             TwoFactorEnabled = false,
                             UserName = "mayank@gmail.com"
                         },
@@ -12518,7 +12428,7 @@ namespace BookMyShow_Clone.Migrations
                         {
                             Id = "662ea775-6b80-49b3-9414-d03bcc043ec8",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "48d77129-fc36-4657-9bf5-d22945a8e627",
+                            ConcurrencyStamp = "5b344442-9371-4a22-ad15-f35cadb3fc8a",
                             Email = "ameesh@gmail.com",
                             EmailConfirmed = true,
                             FirstName = "Ameesh",
@@ -12526,9 +12436,9 @@ namespace BookMyShow_Clone.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "AMEESH@GMAIL.COM",
                             NormalizedUserName = "AMEESH@GMAIL.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEJXNjMkmZklz5cG6WdJXh794nmw4WcwBWVy0eD00QEo0mxHAFEy1/YxWW12idbxvDA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAENnv8lBrcHV7cdJviPwnAa6160Du0Zn3MeIkiZgCsFf9gbNThC62trYd0UrLKKlz6A==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "aaa50b72-92c3-45d5-8ec1-7c60b90561bf",
+                            SecurityStamp = "9a46b2ee-ceb8-4f83-a9ee-e9edbc0ab299",
                             TwoFactorEnabled = false,
                             UserName = "ameesh@gmail.com"
                         },
@@ -12536,7 +12446,7 @@ namespace BookMyShow_Clone.Migrations
                         {
                             Id = "be15effc-7aaf-443c-8c02-f31d4eee3e96",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "5f48baed-15e7-4336-9b2a-a23818cf774d",
+                            ConcurrencyStamp = "72aa6449-7f06-4848-9fd9-09ae9a501bea",
                             Email = "prince@gmail.com",
                             EmailConfirmed = true,
                             FirstName = "Prince",
@@ -12544,9 +12454,9 @@ namespace BookMyShow_Clone.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "PRINCE@GMAIL.COM",
                             NormalizedUserName = "PRINCE@GMAIL.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEEpXsDAwy2WRXl6b7Z7e/I3SejrmAoFcHdgxgIM7l3ixgnkoY0RXqOHGHJvPNn5rwQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEMkjm7G5KhP/hJpNi3BafgNyK1vf1l+LHxX+Cyk7DjINd1r63bznHf7TGZLoccqNtw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "f676c436-9c3f-4ec2-be6e-aa72c9b91573",
+                            SecurityStamp = "51f873d7-140f-408d-be24-0dd885fb91b4",
                             TwoFactorEnabled = false,
                             UserName = "prince@gmail.com"
                         });
@@ -12756,6 +12666,17 @@ namespace BookMyShow_Clone.Migrations
                     b.Navigation("Movie");
                 });
 
+            modelBuilder.Entity("BookMyShow_Clone.Models.EntityAudit", b =>
+                {
+                    b.HasOne("BookMyShow_Clone.Models.SaveChangesAudit", "SaveChangesAudit")
+                        .WithMany("Entities")
+                        .HasForeignKey("SaveChangesAuditId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("SaveChangesAudit");
+                });
+
             modelBuilder.Entity("BookMyShow_Clone.Models.MovieTheatreMapping", b =>
                 {
                     b.HasOne("BookMyShow_Clone.Models.Movie", "Movie")
@@ -12897,6 +12818,11 @@ namespace BookMyShow_Clone.Migrations
                     b.Navigation("MovieTheatreMappings");
 
                     b.Navigation("Shows");
+                });
+
+            modelBuilder.Entity("BookMyShow_Clone.Models.SaveChangesAudit", b =>
+                {
+                    b.Navigation("Entities");
                 });
 
             modelBuilder.Entity("BookMyShow_Clone.Models.Screen", b =>
